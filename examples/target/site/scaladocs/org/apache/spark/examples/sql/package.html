@@ -1,0 +1,186 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html>
+        <head>
+          <title>sql - Spark Project Examples 1.2.0 API - org.apache.spark.examples.sql</title>
+          <meta name="description" content="sql - Spark Project Examples 1.2.0 API - org.apache.spark.examples.sql" />
+          <meta name="keywords" content="sql Spark Project Examples 1.2.0 API org.apache.spark.examples.sql" />
+          <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+          
+      <link href="../../../../../lib/template.css" media="screen" type="text/css" rel="stylesheet" />
+      <link href="../../../../../lib/diagrams.css" media="screen" type="text/css" rel="stylesheet" id="diagrams-css" />
+      <script type="text/javascript">
+         if(top === self) {
+            var url = '../../../../../index.html';
+            var hash = 'org.apache.spark.examples.sql.package';
+            var anchor = window.location.hash;
+            var anchor_opt = '';
+            if (anchor.length >= 1)
+              anchor_opt = '@' + anchor.substring(1);
+            window.location.href = url + '#' + hash + anchor_opt;
+         }
+   	  </script>
+    
+        </head>
+        <body class="value">
+      <div id="definition">
+        <img src="../../../../../lib/package_big.png" />
+        <p id="owner"><a href="../../../../package.html" class="extype" name="org">org</a>.<a href="../../../package.html" class="extype" name="org.apache">apache</a>.<a href="../../package.html" class="extype" name="org.apache.spark">spark</a>.<a href="../package.html" class="extype" name="org.apache.spark.examples">examples</a></p>
+        <h1>sql</h1>
+      </div>
+
+      <h4 id="signature" class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">package</span>
+      </span>
+      <span class="symbol">
+        <span class="name">sql</span>
+      </span>
+      </h4>
+      
+          <div id="comment" class="fullcommenttop"></div>
+        
+
+      <div id="mbrsel">
+        <div id="textfilter"><span class="pre"></span><span class="input"><input id="mbrsel-input" type="text" accesskey="/" /></span><span class="post"></span></div>
+        
+        
+        <div id="visbl">
+            <span class="filtertype">Visibility</span>
+            <ol><li class="public in"><span>Public</span></li><li class="all out"><span>All</span></li></ol>
+          </div>
+      </div>
+
+      <div id="template">
+        <div id="allMembers">
+        
+
+        <div id="types" class="types members">
+              <h3>Type Members</h3>
+              <ol><li name="org.apache.spark.examples.sql.JavaSparkSQL" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="JavaSparkSQLextendsObject"></a>
+      <a id="JavaSparkSQL:JavaSparkSQL"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="JavaSparkSQL.html"><span class="name">JavaSparkSQL</span></a><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
+      </span>
+      </h4>
+      
+    </li><li name="org.apache.spark.examples.sql.Lineitem" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="LineitemextendsProductwithSerializable"></a>
+      <a id="Lineitem:Lineitem"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="Lineitem.html"><span class="name">Lineitem</span></a><span class="params">(<span name="L_ORDERKEY">L_ORDERKEY: <span class="extype" name="scala.Int">Int</span></span>, <span name="L_PARTKEY">L_PARTKEY: <span class="extype" name="scala.Int">Int</span></span>, <span name="L_SUPPKEY">L_SUPPKEY: <span class="extype" name="scala.Int">Int</span></span>, <span name="L_LINENUMBER">L_LINENUMBER: <span class="extype" name="scala.Int">Int</span></span>, <span name="L_QUANTITY">L_QUANTITY: <span class="extype" name="scala.Double">Double</span></span>, <span name="L_EXTENDEDPRICE">L_EXTENDEDPRICE: <span class="extype" name="scala.Double">Double</span></span>, <span name="L_DISCOUNT">L_DISCOUNT: <span class="extype" name="scala.Double">Double</span></span>, <span name="L_TAX">L_TAX: <span class="extype" name="scala.Double">Double</span></span>, <span name="L_RETURNFLAG">L_RETURNFLAG: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="L_LINESTATUS">L_LINESTATUS: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="L_SHIPDATE">L_SHIPDATE: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="L_COMMITDATE">L_COMMITDATE: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="L_RECEIPTDATE">L_RECEIPTDATE: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="L_SHIPINSTRUCT">L_SHIPINSTRUCT: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="L_SHIPMODE">L_SHIPMODE: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="L_COMMENT">L_COMMENT: <span class="extype" name="scala.Predef.String">String</span></span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4>
+      
+    </li><li name="org.apache.spark.examples.sql.Orders" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="OrdersextendsProductwithSerializable"></a>
+      <a id="Orders:Orders"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="Orders.html"><span class="name">Orders</span></a><span class="params">(<span name="O_ORDERKEY">O_ORDERKEY: <span class="extype" name="scala.Int">Int</span></span>, <span name="O_CUSTKEY">O_CUSTKEY: <span class="extype" name="scala.Int">Int</span></span>, <span name="O_ORDERSTATUS">O_ORDERSTATUS: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="O_TOTALPRICE">O_TOTALPRICE: <span class="extype" name="scala.Double">Double</span></span>, <span name="O_ORDERDATE">O_ORDERDATE: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="O_ORDERPRIORITY">O_ORDERPRIORITY: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="O_CLERK">O_CLERK: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="O_SHIPPRIORITY">O_SHIPPRIORITY: <span class="extype" name="scala.Int">Int</span></span>, <span name="O_COMMENT">O_COMMENT: <span class="extype" name="scala.Predef.String">String</span></span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4>
+      
+    </li><li name="org.apache.spark.examples.sql.Record" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="RecordextendsProductwithSerializable"></a>
+      <a id="Record:Record"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="Record.html"><span class="name">Record</span></a><span class="params">(<span name="key">key: <span class="extype" name="scala.Int">Int</span></span>, <span name="value">value: <span class="extype" name="scala.Predef.String">String</span></span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4>
+      
+    </li></ol>
+            </div>
+
+        
+
+        <div id="values" class="values members">
+              <h3>Value Members</h3>
+              <ol><li name="org.apache.spark.examples.sql.PushTest" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="PushTest"></a>
+      <a id="PushTest:PushTest"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="PushTest$.html"><span class="name">PushTest</span></a>
+      </span>
+      </h4>
+      
+    </li><li name="org.apache.spark.examples.sql.RDDRelation" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="RDDRelation"></a>
+      <a id="RDDRelation:RDDRelation"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="RDDRelation$.html"><span class="name">RDDRelation</span></a>
+      </span>
+      </h4>
+      
+    </li><li name="org.apache.spark.examples.sql.hive" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="hive"></a>
+      <a id="hive:hive"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">package</span>
+      </span>
+      <span class="symbol">
+        <a href="hive/package.html"><span class="name">hive</span></a>
+      </span>
+      </h4>
+      
+    </li></ol>
+            </div>
+
+        
+
+        
+        </div>
+
+        <div id="inheritedMembers">
+        
+        
+        </div>
+
+        <div id="groupedMembers">
+        <div class="group" name="Ungrouped">
+              <h3>Ungrouped</h3>
+              
+            </div>
+        </div>
+
+      </div>
+
+      <div id="tooltip"></div>
+
+      <div id="footer">  </div>
+      <script defer="defer" type="text/javascript" id="jquery-js" src="../../../../../lib/jquery.js"></script><script defer="defer" type="text/javascript" id="jquery-ui-js" src="../../../../../lib/jquery-ui.js"></script><script defer="defer" type="text/javascript" id="tools-tooltip-js" src="../../../../../lib/tools.tooltip.js"></script><script defer="defer" type="text/javascript" id="template-js" src="../../../../../lib/template.js"></script>
+    </body>
+      </html>

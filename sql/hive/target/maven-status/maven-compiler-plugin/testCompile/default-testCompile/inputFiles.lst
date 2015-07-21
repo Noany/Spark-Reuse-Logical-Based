@@ -1,0 +1,5 @@
+/Users/zengdan/spark-1.2.0/sql/hive/src/test/java/org/apache/spark/sql/hive/execution/UDFIntegerToString.java
+/Users/zengdan/spark-1.2.0/sql/hive/src/test/java/org/apache/spark/sql/hive/execution/UDFListString.java
+/Users/zengdan/spark-1.2.0/sql/hive/src/test/java/org/apache/spark/sql/hive/execution/UDFTwoListList.java
+/Users/zengdan/spark-1.2.0/sql/hive/src/test/java/org/apache/spark/sql/hive/execution/UDFListListInt.java
+/Users/zengdan/spark-1.2.0/sql/hive/src/test/java/org/apache/spark/sql/hive/execution/UDFStringString.java

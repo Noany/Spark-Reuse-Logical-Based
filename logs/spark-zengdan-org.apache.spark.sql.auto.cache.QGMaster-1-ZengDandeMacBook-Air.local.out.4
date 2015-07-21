@@ -1,0 +1,21 @@
+Spark assembly has been built with Hive, including Datanucleus jars on classpath
+Spark Command: /Library/Java/JavaVirtualMachines/jdk1.7.0_65.jdk/Contents/Home/bin/java -cp ::/Users/zengdan/spark-1.2.0/sbin/../conf:/Users/zengdan/spark-1.2.0/assembly/target/scala-2.10/spark-assembly-1.2.0-hadoop2.2.0.jar:/Users/zengdan/spark-1.2.0/lib_managed/jars/datanucleus-api-jdo-3.2.6.jar:/Users/zengdan/spark-1.2.0/lib_managed/jars/datanucleus-core-3.2.10.jar:/Users/zengdan/spark-1.2.0/lib_managed/jars/datanucleus-rdbms-3.2.9.jar -XX:MaxPermSize=128m -Xms512m -Xmx512m org.apache.spark.sql.auto.cache.QGMaster --ip localhost --port 7070 --webui-port 8088
+========================================
+
+=====Parents=====
+id: 0 statistics: 1 0 0 MetastoreRelation
+=====Nodes=====
+0 id: 0 statistics: 1 0 0 MetastoreRelation 
+1 id: 1 statistics: 1 0 0 Filter 
+2 id: 2 statistics: 1 2632 20206642 Project 
+3 id: 3 statistics: 1 4654 264 Aggregate 
+===============
+=====Parents=====
+id: 0 statistics: 2 0 0 MetastoreRelation
+=====Nodes=====
+0 id: 0 statistics: 2 0 0 MetastoreRelation 
+1 id: 1 statistics: 2 0 0 Filter 
+2 id: 2 statistics: 2 2632 20206642 Project 
+3 id: 3 statistics: 2 4654 264 Aggregate 
+===============
+15/05/14 21:24:44 ERROR QGMaster: RECEIVED SIGNAL 15: SIGTERM

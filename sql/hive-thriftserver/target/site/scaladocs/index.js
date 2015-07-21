@@ -1,0 +1,1 @@
+Index.PACKAGES = {"org.apache.spark.sql.hive" : [], "org.apache.spark" : [], "org.apache" : [], "org.apache.spark.sql" : [], "org" : [], "org.apache.spark.sql.hive.thriftserver" : [{"object" : "org\/apache\/spark\/sql\/hive\/thriftserver\/HiveThriftServer2$.html", "name" : "org.apache.spark.sql.hive.thriftserver.HiveThriftServer2"}]};

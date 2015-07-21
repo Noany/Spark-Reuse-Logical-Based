@@ -1,0 +1,1330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="old-deps"
+		module="old-deps$sources_2.10"
+		revision="0.1-SNAPSHOT"
+		conf="default"
+		confs="default"
+		date="20150422142749"/>
+	<dependencies>
+		<module organisation="org.ow2.asm" name="asm-commons">
+			<revision name="5.0.3" status="release" pubdate="20140524163033" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="115">
+				<metadata-artifact status="no" details="" size="4408" time="0" location="/Users/zengdan/.ivy2/cache/org.ow2.asm/asm-commons/ivy-5.0.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/ow2/asm/asm-commons/5.0.3/asm-commons-5.0.3.pom"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="5.0.3" rev-constraint-default="5.0.3" rev-constraint-dynamic="5.0.3" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="asm-commons" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1038486" time="0" location="/Users/zengdan/.ivy2/cache/org.ow2.asm/asm-commons/srcs/asm-commons-5.0.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/ow2/asm/asm-commons/5.0.3/asm-commons-5.0.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.ow2.asm" name="asm-tree">
+			<revision name="5.0.3" status="release" pubdate="20140524163043" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="116">
+				<metadata-artifact status="no" details="" size="4397" time="0" location="/Users/zengdan/.ivy2/cache/org.ow2.asm/asm-tree/ivy-5.0.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/5.0.3/asm-tree-5.0.3.pom"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="5.0.3" rev-constraint-default="5.0.3" rev-constraint-dynamic="5.0.3" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="asm-tree" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1038486" time="0" location="/Users/zengdan/.ivy2/cache/org.ow2.asm/asm-tree/srcs/asm-tree-5.0.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/5.0.3/asm-tree-5.0.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.ow2.asm" name="asm">
+			<revision name="5.0.3" status="release" pubdate="20140524163012" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="114">
+				<metadata-artifact status="no" details="" size="3758" time="0" location="/Users/zengdan/.ivy2/cache/org.ow2.asm/asm/ivy-5.0.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/ow2/asm/asm/5.0.3/asm-5.0.3.pom"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="5.0.3" rev-constraint-default="5.0.3" rev-constraint-dynamic="5.0.3" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="asm" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1038486" time="0" location="/Users/zengdan/.ivy2/cache/org.ow2.asm/asm/srcs/asm-5.0.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/ow2/asm/asm/5.0.3/asm-5.0.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.cavorite" name="sbt-avro">
+			<revision name="0.3.2" status="release" pubdate="20130929132504" resolver="sbt-chain" artresolver="sbt-chain" extra-sbtVersion="0.13" extra-scalaVersion="2.10" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="101">
+				<metadata-artifact status="no" details="" size="1631" time="0" location="/Users/zengdan/.ivy2/cache/scala_2.10/sbt_0.13/com.cavorite/sbt-avro/ivy-0.3.2.xml" searched="false" origin-is-local="false" origin-location="https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.cavorite/sbt-avro/scala_2.10/sbt_0.13/0.3.2/ivys/ivy.xml"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="0.3.2" rev-constraint-default="0.3.2" rev-constraint-dynamic="0.3.2" callerrev="0.1-SNAPSHOT" extra-sbtVersion="0.13" extra-scalaVersion="2.10"/>
+				<artifacts>
+					<artifact name="sbt-avro" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1746" time="0" location="/Users/zengdan/.ivy2/cache/scala_2.10/sbt_0.13/com.cavorite/sbt-avro/srcs/sbt-avro-0.3.2-sources.jar">
+						<origin-location is-local="false" location="https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.cavorite/sbt-avro/scala_2.10/sbt_0.13/0.3.2/srcs/sbt-avro-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.avro" name="avro-compiler">
+			<revision name="1.7.5" status="release" pubdate="20130809001709" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://avro.apache.org" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="110">
+				<metadata-artifact status="no" details="" size="9957" time="0" location="/Users/zengdan/.ivy2/cache/org.apache.avro/avro-compiler/ivy-1.7.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/avro/avro-compiler/1.7.5/avro-compiler-1.7.5.pom"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="avro-compiler" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="47449" time="0" location="/Users/zengdan/.ivy2/cache/org.apache.avro/avro-compiler/srcs/avro-compiler-1.7.5-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/avro/avro-compiler/1.7.5/avro-compiler-1.7.5-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.velocity" name="velocity">
+			<revision name="1.7" status="release" pubdate="20101130032813" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://velocity.apache.org/engine/devel/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="112">
+				<metadata-artifact status="no" details="" size="4480" time="0" location="/Users/zengdan/.ivy2/cache/org.apache.velocity/velocity/ivy-1.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/velocity/velocity/1.7/velocity-1.7.pom"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="1.7" rev-constraint-default="1.7" rev-constraint-dynamic="1.7" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="velocity" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="515284" time="0" location="/Users/zengdan/.ivy2/cache/org.apache.velocity/velocity/srcs/velocity-1.7-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/velocity/velocity/1.7/velocity-1.7-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-collections" name="commons-collections">
+			<revision name="3.2.1" status="release" pubdate="20080415090924" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/collections/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="113">
+				<metadata-artifact status="no" details="" size="4584" time="0" location="/Users/zengdan/.ivy2/cache/commons-collections/commons-collections/ivy-3.2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.pom"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="3.2.1" rev-constraint-default="3.2.1" rev-constraint-dynamic="3.2.1" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="commons-collections" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="641582" time="0" location="/Users/zengdan/.ivy2/cache/commons-collections/commons-collections/srcs/commons-collections-3.2.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-lang" name="commons-lang">
+			<revision name="2.6" status="release" pubdate="20110117062147" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/lang/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="111">
+				<metadata-artifact status="no" details="" size="6390" time="0" location="/Users/zengdan/.ivy2/cache/commons-lang/commons-lang/ivy-2.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-lang/commons-lang/2.6/commons-lang-2.6.pom"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="2.6" rev-constraint-default="2.6" rev-constraint-dynamic="2.6" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="commons-lang" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="372982" time="0" location="/Users/zengdan/.ivy2/cache/commons-lang/commons-lang/srcs/commons-lang-2.6-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-lang/commons-lang/2.6/commons-lang-2.6-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.avro" name="avro">
+			<revision name="1.7.5" status="release" pubdate="20130809001651" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://avro.apache.org" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="102">
+				<metadata-artifact status="no" details="" size="10374" time="0" location="/Users/zengdan/.ivy2/cache/org.apache.avro/avro/ivy-1.7.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/avro/avro/1.7.5/avro-1.7.5.pom"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="avro" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="237620" time="0" location="/Users/zengdan/.ivy2/cache/org.apache.avro/avro/srcs/avro-1.7.5-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/avro/avro/1.7.5/avro-1.7.5-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-api">
+			<revision name="1.6.4" status="release" pubdate="20111101064538" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="109">
+				<metadata-artifact status="no" details="" size="4338" time="0" location="/Users/zengdan/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.6.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.6.4/slf4j-api-1.6.4.pom"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="1.6.4" rev-constraint-default="1.6.4" rev-constraint-dynamic="1.6.4" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="slf4j-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="46413" time="0" location="/Users/zengdan/.ivy2/cache/org.slf4j/slf4j-api/srcs/slf4j-api-1.6.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.6.4/slf4j-api-1.6.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.commons" name="commons-compress">
+			<revision name="1.4.1" status="release" pubdate="20120522125732" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/compress/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="107">
+				<metadata-artifact status="no" details="" size="7888" time="0" location="/Users/zengdan/.ivy2/cache/org.apache.commons/commons-compress/ivy-1.4.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.4.1/commons-compress-1.4.1.pom"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="1.4.1" rev-constraint-default="1.4.1" rev-constraint-dynamic="1.4.1" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="commons-compress" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="264972" time="0" location="/Users/zengdan/.ivy2/cache/org.apache.commons/commons-compress/srcs/commons-compress-1.4.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.4.1/commons-compress-1.4.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.tukaani" name="xz">
+			<revision name="1.0" status="release" pubdate="20111022174446" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://tukaani.org/xz/java.html" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="108">
+				<license name="Public Domain"/>
+				<metadata-artifact status="no" details="" size="2277" time="0" location="/Users/zengdan/.ivy2/cache/org.tukaani/xz/ivy-1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/tukaani/xz/1.0/xz-1.0.pom"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="1.0" rev-constraint-default="1.0" rev-constraint-dynamic="1.0" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="xz" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="119146" time="0" location="/Users/zengdan/.ivy2/cache/org.tukaani/xz/srcs/xz-1.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/tukaani/xz/1.0/xz-1.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.xerial.snappy" name="snappy-java">
+			<revision name="1.0.5" status="release" pubdate="20130517093557" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/xerial/snappy-java/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="106">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3844" time="0" location="/Users/zengdan/.ivy2/cache/org.xerial.snappy/snappy-java/ivy-1.0.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/xerial/snappy/snappy-java/1.0.5/snappy-java-1.0.5.pom"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="1.0.5" rev-constraint-default="1.0.5" rev-constraint-dynamic="1.0.5" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="snappy-java" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="28089" time="0" location="/Users/zengdan/.ivy2/cache/org.xerial.snappy/snappy-java/srcs/snappy-java-1.0.5-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/xerial/snappy/snappy-java/1.0.5/snappy-java-1.0.5-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.thoughtworks.paranamer" name="paranamer">
+			<revision name="2.3" status="release" pubdate="20101019211431" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="105">
+				<metadata-artifact status="no" details="" size="3340" time="0" location="/Users/zengdan/.ivy2/cache/com.thoughtworks.paranamer/paranamer/ivy-2.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.3/paranamer-2.3.pom"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="2.3" rev-constraint-default="2.3" rev-constraint-dynamic="2.3" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="paranamer" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="26753" time="0" location="/Users/zengdan/.ivy2/cache/com.thoughtworks.paranamer/paranamer/srcs/paranamer-2.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.3/paranamer-2.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.codehaus.jackson" name="jackson-mapper-asl">
+			<revision name="1.9.13" status="release" pubdate="20130715110750" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jackson.codehaus.org" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="104">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2655" time="0" location="/Users/zengdan/.ivy2/cache/org.codehaus.jackson/jackson-mapper-asl/ivy-1.9.13.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.9.13/jackson-mapper-asl-1.9.13.pom"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="1.9.13" rev-constraint-default="1.9.13" rev-constraint-dynamic="1.9.13" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="jackson-mapper-asl" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="548251" time="0" location="/Users/zengdan/.ivy2/cache/org.codehaus.jackson/jackson-mapper-asl/srcs/jackson-mapper-asl-1.9.13-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.9.13/jackson-mapper-asl-1.9.13-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.codehaus.jackson" name="jackson-core-asl">
+			<revision name="1.9.13" status="release" pubdate="20130715110730" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jackson.codehaus.org" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="103">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2438" time="0" location="/Users/zengdan/.ivy2/cache/org.codehaus.jackson/jackson-core-asl/ivy-1.9.13.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13.pom"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="1.9.13" rev-constraint-default="1.9.13" rev-constraint-dynamic="1.9.13" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="jackson-core-asl" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="240367" time="0" location="/Users/zengdan/.ivy2/cache/org.codehaus.jackson/jackson-core-asl/srcs/jackson-core-asl-1.9.13-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.eed3si9n" name="sbt-unidoc">
+			<revision name="0.3.1" status="release" pubdate="20140423111347" resolver="sbt-chain" artresolver="sbt-chain" extra-sbtVersion="0.13" extra-scalaVersion="2.10" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="100">
+				<license name="Apache License v2" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="1575" time="0" location="/Users/zengdan/.ivy2/cache/scala_2.10/sbt_0.13/com.eed3si9n/sbt-unidoc/ivy-0.3.1.xml" searched="false" origin-is-local="false" origin-location="https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.eed3si9n/sbt-unidoc/scala_2.10/sbt_0.13/0.3.1/ivys/ivy.xml"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="0.3.1" rev-constraint-default="0.3.1" rev-constraint-dynamic="0.3.1" callerrev="0.1-SNAPSHOT" extra-sbtVersion="0.13" extra-scalaVersion="2.10"/>
+				<artifacts>
+					<artifact name="sbt-unidoc" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="2657" time="0" location="/Users/zengdan/.ivy2/cache/scala_2.10/sbt_0.13/com.eed3si9n/sbt-unidoc/srcs/sbt-unidoc-0.3.1-sources.jar">
+						<origin-location is-local="false" location="https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.eed3si9n/sbt-unidoc/scala_2.10/sbt_0.13/0.3.1/srcs/sbt-unidoc-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.alpinenow" name="junit_xml_listener">
+			<revision name="0.5.1" status="release" pubdate="20140709022732" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/AlpineNow/junit_xml_listener" extra-sbtVersion="0.13" extra-scalaVersion="2.10" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="99">
+				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="3024" time="0" location="/Users/zengdan/.ivy2/cache/scala_2.10/sbt_0.13/com.alpinenow/junit_xml_listener/ivy-0.5.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/alpinenow/junit_xml_listener_2.10_0.13/0.5.1/junit_xml_listener-0.5.1.pom"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="0.5.1" rev-constraint-default="0.5.1" rev-constraint-dynamic="0.5.1" callerrev="0.1-SNAPSHOT" extra-sbtVersion="0.13" extra-scalaVersion="2.10"/>
+				<artifacts>
+					<artifact name="junit_xml_listener" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="3239" time="0" location="/Users/zengdan/.ivy2/cache/scala_2.10/sbt_0.13/com.alpinenow/junit_xml_listener/srcs/junit_xml_listener-0.5.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/alpinenow/junit_xml_listener_2.10_0.13/0.5.1/junit_xml_listener-0.5.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe" name="sbt-mima-plugin">
+			<revision name="0.1.6" status="release" pubdate="20130924114919" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/typesafehub/migration-manager" extra-sbtVersion="0.13" extra-scalaVersion="2.10" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="94">
+				<license name="Apache License v2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="1692" time="0" location="/Users/zengdan/.ivy2/cache/scala_2.10/sbt_0.13/com.typesafe/sbt-mima-plugin/ivy-0.1.6.xml" searched="false" origin-is-local="false" origin-location="https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe/sbt-mima-plugin/scala_2.10/sbt_0.13/0.1.6/ivys/ivy.xml"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="0.1.6" rev-constraint-default="0.1.6" rev-constraint-dynamic="0.1.6" callerrev="0.1-SNAPSHOT" extra-sbtVersion="0.13" extra-scalaVersion="2.10"/>
+				<artifacts>
+					<artifact name="sbt-mima-plugin" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="4442" time="0" location="/Users/zengdan/.ivy2/cache/scala_2.10/sbt_0.13/com.typesafe/sbt-mima-plugin/srcs/sbt-mima-plugin-0.1.6-sources.jar">
+						<origin-location is-local="false" location="https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe/sbt-mima-plugin/scala_2.10/sbt_0.13/0.1.6/srcs/sbt-mima-plugin-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe" name="mima-reporter_2.10">
+			<revision name="0.1.6" status="release" pubdate="20130924175319" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/typesafehub/migration-manager" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="95">
+				<license name="Apache License v2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3100" time="0" location="/Users/zengdan/.ivy2/cache/com.typesafe/mima-reporter_2.10/ivy-0.1.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/mima-reporter_2.10/0.1.6/mima-reporter_2.10-0.1.6.pom"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="0.1.6" rev-constraint-default="0.1.6" rev-constraint-dynamic="0.1.6" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="mima-reporter_2.10" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="13299" time="0" location="/Users/zengdan/.ivy2/cache/com.typesafe/mima-reporter_2.10/srcs/mima-reporter_2.10-0.1.6-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/mima-reporter_2.10/0.1.6/mima-reporter_2.10-0.1.6-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-swing">
+			<revision name="2.10.2" status="release" pubdate="20130607020638" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.10.2/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="98">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html          "/>
+				<metadata-artifact status="no" details="" size="2803" time="0" location="/Users/zengdan/.ivy2/cache/org.scala-lang/scala-swing/ivy-2.10.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-swing/2.10.2/scala-swing-2.10.2.pom"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="2.10.2" rev-constraint-default="2.10.2" rev-constraint-dynamic="2.10.2" callerrev="0.1-SNAPSHOT" extra-info.apiURL="http://www.scala-lang.org/api/2.10.2/"/>
+				<artifacts>
+					<artifact name="scala-swing" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="79597" time="0" location="/Users/zengdan/.ivy2/cache/org.scala-lang/scala-swing/srcs/scala-swing-2.10.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-swing/2.10.2/scala-swing-2.10.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-actors">
+			<revision name="2.10.2" status="release" pubdate="20130607020651" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.10.2/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="97">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html          "/>
+				<metadata-artifact status="no" details="" size="2825" time="0" location="/Users/zengdan/.ivy2/cache/org.scala-lang/scala-actors/ivy-2.10.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-actors/2.10.2/scala-actors-2.10.2.pom"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="2.10.2" rev-constraint-default="2.10.2" rev-constraint-dynamic="2.10.2" callerrev="0.1-SNAPSHOT" extra-info.apiURL="http://www.scala-lang.org/api/2.10.2/"/>
+				<artifacts>
+					<artifact name="scala-actors" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="178330" time="0" location="/Users/zengdan/.ivy2/cache/org.scala-lang/scala-actors/srcs/scala-actors-2.10.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-actors/2.10.2/scala-actors-2.10.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe" name="mima-core_2.10">
+			<revision name="0.1.6" status="release" pubdate="20130924175000" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/typesafehub/migration-manager" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="96">
+				<license name="Apache License v2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3002" time="0" location="/Users/zengdan/.ivy2/cache/com.typesafe/mima-core_2.10/ivy-0.1.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/mima-core_2.10/0.1.6/mima-core_2.10-0.1.6.pom"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="0.1.6" rev-constraint-default="0.1.6" rev-constraint-dynamic="0.1.6" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="mima-core_2.10" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="24202" time="0" location="/Users/zengdan/.ivy2/cache/com.typesafe/mima-core_2.10/srcs/mima-core_2.10-0.1.6-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/mima-core_2.10/0.1.6/mima-core_2.10-0.1.6-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalastyle" name="scalastyle-sbt-plugin">
+			<revision name="0.6.0" status="release" pubdate="20141019015920" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scalastyle.org" extra-sbtVersion="0.13" extra-scalaVersion="2.10" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="90">
+				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="3115" time="0" location="/Users/zengdan/.ivy2/cache/scala_2.10/sbt_0.13/org.scalastyle/scalastyle-sbt-plugin/ivy-0.6.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalastyle/scalastyle-sbt-plugin_2.10_0.13/0.6.0/scalastyle-sbt-plugin-0.6.0.pom"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="0.6.0" rev-constraint-default="0.6.0" rev-constraint-dynamic="0.6.0" callerrev="0.1-SNAPSHOT" extra-sbtVersion="0.13" extra-scalaVersion="2.10"/>
+				<artifacts>
+					<artifact name="scalastyle-sbt-plugin" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="5466" time="0" location="/Users/zengdan/.ivy2/cache/scala_2.10/sbt_0.13/org.scalastyle/scalastyle-sbt-plugin/srcs/scalastyle-sbt-plugin-0.6.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalastyle/scalastyle-sbt-plugin_2.10_0.13/0.6.0/scalastyle-sbt-plugin-0.6.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalastyle" name="scalastyle_2.10">
+			<revision name="0.6.0" status="release" pubdate="20141019013945" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scalastyle.org" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="91">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="3259" time="0" location="/Users/zengdan/.ivy2/cache/org.scalastyle/scalastyle_2.10/ivy-0.6.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalastyle/scalastyle_2.10/0.6.0/scalastyle_2.10-0.6.0.pom"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="0.6.0" rev-constraint-default="0.6.0" rev-constraint-dynamic="0.6.0" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="scalastyle_2.10" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="83853" time="0" location="/Users/zengdan/.ivy2/cache/org.scalastyle/scalastyle_2.10/srcs/scalastyle_2.10-0.6.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalastyle/scalastyle_2.10/0.6.0/scalastyle_2.10-0.6.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe" name="config">
+			<revision name="1.2.0" status="release" pubdate="20140115230944" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typesafehub/config" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="93">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2734" time="0" location="/Users/zengdan/.ivy2/cache/com.typesafe/config/ivy-1.2.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/config/1.2.0/config-1.2.0.pom"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="config" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="130916" time="0" location="/Users/zengdan/.ivy2/cache/com.typesafe/config/srcs/config-1.2.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/config/1.2.0/config-1.2.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.danieltrinh" name="scalariform_2.10">
+			<revision name="0.1.5" status="release" pubdate="20140525030602" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/mdr/scalariform" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="92">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="2649" time="0" location="/Users/zengdan/.ivy2/cache/com.danieltrinh/scalariform_2.10/ivy-0.1.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/danieltrinh/scalariform_2.10/0.1.5/scalariform_2.10-0.1.5.pom"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="0.1.5" rev-constraint-default="0.1.5" rev-constraint-dynamic="0.1.5" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="scalariform_2.10" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="88176" time="0" location="/Users/zengdan/.ivy2/cache/com.danieltrinh/scalariform_2.10/srcs/scalariform_2.10-0.1.5-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/danieltrinh/scalariform_2.10/0.1.5/scalariform_2.10-0.1.5-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.virtual-void" name="sbt-dependency-graph">
+			<revision name="0.7.4" status="release" pubdate="20130722222754" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/jrudolph/sbt-dependency-graph" extra-sbtVersion="0.13" extra-scalaVersion="2.10" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="88">
+				<license name="Apache License 2.0" url="https://github.com/jrudolph/sbt-dependency-graph/raw/master/LICENSE"/>
+				<metadata-artifact status="no" details="" size="3315" time="0" location="/Users/zengdan/.ivy2/cache/scala_2.10/sbt_0.13/net.virtual-void/sbt-dependency-graph/ivy-0.7.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/net/virtual-void/sbt-dependency-graph_2.10_0.13/0.7.4/sbt-dependency-graph-0.7.4.pom"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="0.7.4" rev-constraint-default="0.7.4" rev-constraint-dynamic="0.7.4" callerrev="0.1-SNAPSHOT" extra-sbtVersion="0.13" extra-scalaVersion="2.10"/>
+				<artifacts>
+					<artifact name="sbt-dependency-graph" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="9595" time="0" location="/Users/zengdan/.ivy2/cache/scala_2.10/sbt_0.13/net.virtual-void/sbt-dependency-graph/srcs/sbt-dependency-graph-0.7.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/net/virtual-void/sbt-dependency-graph_2.10_0.13/0.7.4/sbt-dependency-graph-0.7.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.mdr" name="ascii-graphs_2.10">
+			<revision name="0.0.3" status="release" pubdate="20130509201044" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/mdr/ascii-graphs" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="89">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="2654" time="0" location="/Users/zengdan/.ivy2/cache/com.github.mdr/ascii-graphs_2.10/ivy-0.0.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/mdr/ascii-graphs_2.10/0.0.3/ascii-graphs_2.10-0.0.3.pom"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="0.0.3" rev-constraint-default="0.0.3" rev-constraint-dynamic="0.0.3" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="ascii-graphs_2.10" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="21295" time="0" location="/Users/zengdan/.ivy2/cache/com.github.mdr/ascii-graphs_2.10/srcs/ascii-graphs_2.10-0.0.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/mdr/ascii-graphs_2.10/0.0.3/ascii-graphs_2.10-0.0.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.mpeltonen" name="sbt-idea">
+			<revision name="1.6.0" status="release" pubdate="20140209031446" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://your.project.url" extra-sbtVersion="0.13" extra-scalaVersion="2.10" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="87">
+				<license name="BSD-style" url="http://www.opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="3532" time="0" location="/Users/zengdan/.ivy2/cache/scala_2.10/sbt_0.13/com.github.mpeltonen/sbt-idea/ivy-1.6.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/mpeltonen/sbt-idea_2.10_0.13/1.6.0/sbt-idea-1.6.0.pom"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="1.6.0" rev-constraint-default="1.6.0" rev-constraint-dynamic="1.6.0" callerrev="0.1-SNAPSHOT" extra-sbtVersion="0.13" extra-scalaVersion="2.10"/>
+				<artifacts>
+					<artifact name="sbt-idea" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="23345" time="0" location="/Users/zengdan/.ivy2/cache/scala_2.10/sbt_0.13/com.github.mpeltonen/sbt-idea/srcs/sbt-idea-1.6.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/mpeltonen/sbt-idea_2.10_0.13/1.6.0/sbt-idea-1.6.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalaz" name="scalaz-core_2.10">
+			<revision name="6.0.4" status="release" pubdate="20130102170429" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scalaz.org" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="86">
+				<license name="BSD-style" url="http://www.opensource.org/licenses/bsd-license.php"/>
+				<metadata-artifact status="no" details="" size="2511" time="0" location="/Users/zengdan/.ivy2/cache/org.scalaz/scalaz-core_2.10/ivy-6.0.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalaz/scalaz-core_2.10/6.0.4/scalaz-core_2.10-6.0.4.pom"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="6.0.4" rev-constraint-default="6.0.4" rev-constraint-dynamic="6.0.4" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="scalaz-core_2.10" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="134775" time="0" location="/Users/zengdan/.ivy2/cache/org.scalaz/scalaz-core_2.10/srcs/scalaz-core_2.10-6.0.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalaz/scalaz-core_2.10/6.0.4/scalaz-core_2.10-6.0.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.eed3si9n" name="sbt-assembly">
+			<revision name="0.11.2" status="release" pubdate="20140319165202" resolver="sbt-chain" artresolver="sbt-chain" extra-sbtVersion="0.13" extra-scalaVersion="2.10" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="85">
+				<license name="MIT License" url="https://github.com/sbt/sbt-assembly/blob/master/LICENSE"/>
+				<metadata-artifact status="no" details="" size="1564" time="0" location="/Users/zengdan/.ivy2/cache/scala_2.10/sbt_0.13/com.eed3si9n/sbt-assembly/ivy-0.11.2.xml" searched="false" origin-is-local="false" origin-location="https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.eed3si9n/sbt-assembly/scala_2.10/sbt_0.13/0.11.2/ivys/ivy.xml"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="0.11.2" rev-constraint-default="0.11.2" rev-constraint-dynamic="0.11.2" callerrev="0.1-SNAPSHOT" extra-sbtVersion="0.13" extra-scalaVersion="2.10"/>
+				<artifacts>
+					<artifact name="sbt-assembly" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="8342" time="0" location="/Users/zengdan/.ivy2/cache/scala_2.10/sbt_0.13/com.eed3si9n/sbt-assembly/srcs/sbt-assembly-0.11.2-sources.jar">
+						<origin-location is-local="false" location="https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.eed3si9n/sbt-assembly/scala_2.10/sbt_0.13/0.11.2/srcs/sbt-assembly-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.maven.wagon" name="wagon-http-lightweight">
+			<revision name="2.2" status="release" pubdate="20111215203133" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="83">
+				<metadata-artifact status="no" details="" size="11493" time="0" location="/Users/zengdan/.ivy2/cache/org.apache.maven.wagon/wagon-http-lightweight/ivy-2.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/maven/wagon/wagon-http-lightweight/2.2/wagon-http-lightweight-2.2.pom"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="2.2" rev-constraint-default="2.2" rev-constraint-dynamic="2.2" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="wagon-http-lightweight" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="12224" time="0" location="/Users/zengdan/.ivy2/cache/org.apache.maven.wagon/wagon-http-lightweight/srcs/wagon-http-lightweight-2.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/maven/wagon/wagon-http-lightweight/2.2/wagon-http-lightweight-2.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.maven" name="maven-embedder">
+			<revision name="3.0.4" status="release" pubdate="20120117164719" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="67">
+				<metadata-artifact status="no" details="" size="15828" time="0" location="/Users/zengdan/.ivy2/cache/org.apache.maven/maven-embedder/ivy-3.0.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/maven/maven-embedder/3.0.4/maven-embedder-3.0.4.pom"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="3.0.4" rev-constraint-default="3.0.4" rev-constraint-dynamic="3.0.4" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="maven-embedder" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="31516" time="0" location="/Users/zengdan/.ivy2/cache/org.apache.maven/maven-embedder/srcs/maven-embedder-3.0.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/maven/maven-embedder/3.0.4/maven-embedder-3.0.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-cli" name="commons-cli">
+			<revision name="1.2" status="release" pubdate="20090320040832" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/cli/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="81">
+				<metadata-artifact status="no" details="" size="4450" time="0" location="/Users/zengdan/.ivy2/cache/commons-cli/commons-cli/ivy-1.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-cli/commons-cli/1.2/commons-cli-1.2.pom"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="1.2" rev-constraint-default="1.2" rev-constraint-dynamic="1.2" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="commons-cli" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="48726" time="0" location="/Users/zengdan/.ivy2/cache/commons-cli/commons-cli/srcs/commons-cli-1.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-cli/commons-cli/1.2/commons-cli-1.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.sonatype.plexus" name="plexus-cipher">
+			<revision name="1.7" status="release" pubdate="20110727020634" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spice.sonatype.org/${project.artifactId}" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="72">
+				<metadata-artifact status="no" details="" size="5650" time="0" location="/Users/zengdan/.ivy2/cache/org.sonatype.plexus/plexus-cipher/ivy-1.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/sonatype/plexus/plexus-cipher/1.7/plexus-cipher-1.7.pom"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="1.7" rev-constraint-default="1.7" rev-constraint-dynamic="1.7" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="plexus-cipher" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="12585" time="0" location="/Users/zengdan/.ivy2/cache/org.sonatype.plexus/plexus-cipher/srcs/plexus-cipher-1.7-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/sonatype/plexus/plexus-cipher/1.7/plexus-cipher-1.7-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.maven" name="maven-compat">
+			<revision name="3.0.4" status="release" pubdate="20120117164643" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="82">
+				<metadata-artifact status="no" details="" size="15909" time="0" location="/Users/zengdan/.ivy2/cache/org.apache.maven/maven-compat/ivy-3.0.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/maven/maven-compat/3.0.4/maven-compat-3.0.4.pom"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="3.0.4" rev-constraint-default="3.0.4" rev-constraint-dynamic="3.0.4" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="maven-compat" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="242345" time="0" location="/Users/zengdan/.ivy2/cache/org.apache.maven/maven-compat/srcs/maven-compat-3.0.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/maven/maven-compat/3.0.4/maven-compat-3.0.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.maven.wagon" name="wagon-file">
+			<revision name="2.2" status="release" pubdate="20111215202526" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="84">
+				<metadata-artifact status="no" details="" size="10938" time="0" location="/Users/zengdan/.ivy2/cache/org.apache.maven.wagon/wagon-file/ivy-2.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/maven/wagon/wagon-file/2.2/wagon-file-2.2.pom"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="2.2" rev-constraint-default="2.2" rev-constraint-dynamic="2.2" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="wagon-file" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="8463" time="0" location="/Users/zengdan/.ivy2/cache/org.apache.maven.wagon/wagon-file/srcs/wagon-file-2.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/maven/wagon/wagon-file/2.2/wagon-file-2.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.maven" name="maven-core">
+			<revision name="3.0.4" status="release" pubdate="20120117164538" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="69">
+				<metadata-artifact status="no" details="" size="16501" time="0" location="/Users/zengdan/.ivy2/cache/org.apache.maven/maven-core/ivy-3.0.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/maven/maven-core/3.0.4/maven-core-3.0.4.pom"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="3.0.4" rev-constraint-default="3.0.4" rev-constraint-dynamic="3.0.4" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="maven-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="484723" time="0" location="/Users/zengdan/.ivy2/cache/org.apache.maven/maven-core/srcs/maven-core-3.0.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/maven/maven-core/3.0.4/maven-core-3.0.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.maven" name="maven-plugin-api">
+			<revision name="3.0.4" status="release" pubdate="20120117164217" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="74">
+				<metadata-artifact status="no" details="" size="14350" time="0" location="/Users/zengdan/.ivy2/cache/org.apache.maven/maven-plugin-api/ivy-3.0.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-api/3.0.4/maven-plugin-api-3.0.4.pom"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="3.0.4" rev-constraint-default="3.0.4" rev-constraint-dynamic="3.0.4" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="maven-plugin-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="64942" time="0" location="/Users/zengdan/.ivy2/cache/org.apache.maven/maven-plugin-api/srcs/maven-plugin-api-3.0.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-api/3.0.4/maven-plugin-api-3.0.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.maven" name="maven-artifact">
+			<revision name="3.0.4" status="release" pubdate="20120117164148" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="73">
+				<metadata-artifact status="no" details="" size="13713" time="0" location="/Users/zengdan/.ivy2/cache/org.apache.maven/maven-artifact/ivy-3.0.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/maven/maven-artifact/3.0.4/maven-artifact-3.0.4.pom"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="3.0.4" rev-constraint-default="3.0.4" rev-constraint-dynamic="3.0.4" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="maven-artifact" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="47462" time="0" location="/Users/zengdan/.ivy2/cache/org.apache.maven/maven-artifact/srcs/maven-artifact-3.0.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/maven/maven-artifact/3.0.4/maven-artifact-3.0.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.maven" name="maven-settings-builder">
+			<revision name="3.0.4" status="release" pubdate="20120117164350" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="70">
+				<metadata-artifact status="no" details="" size="14531" time="0" location="/Users/zengdan/.ivy2/cache/org.apache.maven/maven-settings-builder/ivy-3.0.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/maven/maven-settings-builder/3.0.4/maven-settings-builder-3.0.4.pom"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="3.0.4" rev-constraint-default="3.0.4" rev-constraint-dynamic="3.0.4" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="maven-settings-builder" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="43770" time="0" location="/Users/zengdan/.ivy2/cache/org.apache.maven/maven-settings-builder/srcs/maven-settings-builder-3.0.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/maven/maven-settings-builder/3.0.4/maven-settings-builder-3.0.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.sonatype.plexus" name="plexus-sec-dispatcher">
+			<revision name="1.3" status="release" pubdate="20090430040532" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spice.sonatype.org/${project.artifactId}" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="71">
+				<metadata-artifact status="no" details="" size="6645" time="0" location="/Users/zengdan/.ivy2/cache/org.sonatype.plexus/plexus-sec-dispatcher/ivy-1.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.pom"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="1.3" rev-constraint-default="1.3" rev-constraint-dynamic="1.3" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="plexus-sec-dispatcher" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="18986" time="0" location="/Users/zengdan/.ivy2/cache/org.sonatype.plexus/plexus-sec-dispatcher/srcs/plexus-sec-dispatcher-1.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.maven" name="maven-settings">
+			<revision name="3.0.4" status="release" pubdate="20120117164322" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="68">
+				<metadata-artifact status="no" details="" size="13748" time="0" location="/Users/zengdan/.ivy2/cache/org.apache.maven/maven-settings/ivy-3.0.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/maven/maven-settings/3.0.4/maven-settings-3.0.4.pom"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="3.0.4" rev-constraint-default="3.0.4" rev-constraint-dynamic="3.0.4" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="maven-settings" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="35165" time="0" location="/Users/zengdan/.ivy2/cache/org.apache.maven/maven-settings/srcs/maven-settings-3.0.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/maven/maven-settings/3.0.4/maven-settings-3.0.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.maven.wagon" name="wagon-http">
+			<revision name="2.2" status="release" pubdate="20111215202850" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="59">
+				<metadata-artifact status="no" details="" size="11572" time="0" location="/Users/zengdan/.ivy2/cache/org.apache.maven.wagon/wagon-http/ivy-2.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/maven/wagon/wagon-http/2.2/wagon-http-2.2.pom"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="2.2" rev-constraint-default="2.2" rev-constraint-dynamic="2.2" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="wagon-http" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="8496" time="0" location="/Users/zengdan/.ivy2/cache/org.apache.maven.wagon/wagon-http/srcs/wagon-http-2.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/maven/wagon/wagon-http/2.2/wagon-http-2.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.maven.wagon" name="wagon-http-shared4">
+			<revision name="2.2" status="release" pubdate="20111215202617" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="60">
+				<metadata-artifact status="no" details="" size="11696" time="0" location="/Users/zengdan/.ivy2/cache/org.apache.maven.wagon/wagon-http-shared4/ivy-2.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/maven/wagon/wagon-http-shared4/2.2/wagon-http-shared4-2.2.pom"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="2.2" rev-constraint-default="2.2" rev-constraint-dynamic="2.2" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="wagon-http-shared4" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="20145" time="0" location="/Users/zengdan/.ivy2/cache/org.apache.maven.wagon/wagon-http-shared4/srcs/wagon-http-shared4-2.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/maven/wagon/wagon-http-shared4/2.2/wagon-http-shared4-2.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-io" name="commons-io">
+			<revision name="2.0.1" status="release" pubdate="20101227011931" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/io/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="66">
+				<metadata-artifact status="no" details="" size="6238" time="0" location="/Users/zengdan/.ivy2/cache/commons-io/commons-io/ivy-2.0.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-io/commons-io/2.0.1/commons-io-2.0.1.pom"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="2.0.1" rev-constraint-default="2.0.1" rev-constraint-dynamic="2.0.1" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="commons-io" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="232877" time="0" location="/Users/zengdan/.ivy2/cache/commons-io/commons-io/srcs/commons-io-2.0.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-io/commons-io/2.0.1/commons-io-2.0.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.httpcomponents" name="httpclient">
+			<revision name="4.1.2" status="release" pubdate="20110730060203" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hc.apache.org/httpcomponents-client" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="62">
+				<metadata-artifact status="no" details="" size="5573" time="0" location="/Users/zengdan/.ivy2/cache/org.apache.httpcomponents/httpclient/ivy-4.1.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.1.2/httpclient-4.1.2.pom"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="4.1.2" rev-constraint-default="4.1.2" rev-constraint-dynamic="4.1.2" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="httpclient" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="451595" time="0" location="/Users/zengdan/.ivy2/cache/org.apache.httpcomponents/httpclient/srcs/httpclient-4.1.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.1.2/httpclient-4.1.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-codec" name="commons-codec">
+			<revision name="1.4" status="release" pubdate="20090810052217" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/codec/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="65">
+				<metadata-artifact status="no" details="" size="4984" time="0" location="/Users/zengdan/.ivy2/cache/commons-codec/commons-codec/ivy-1.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-codec/commons-codec/1.4/commons-codec-1.4.pom"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="1.4" rev-constraint-default="1.4" rev-constraint-dynamic="1.4" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="commons-codec" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="81359" time="0" location="/Users/zengdan/.ivy2/cache/commons-codec/commons-codec/srcs/commons-codec-1.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-codec/commons-codec/1.4/commons-codec-1.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-logging" name="commons-logging">
+			<revision name="1.1.1" status="release" pubdate="20071127042410" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/logging" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="64">
+				<metadata-artifact status="no" details="" size="3941" time="0" location="/Users/zengdan/.ivy2/cache/commons-logging/commons-logging/ivy-1.1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.pom"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="commons-logging" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="74976" time="0" location="/Users/zengdan/.ivy2/cache/commons-logging/commons-logging/srcs/commons-logging-1.1.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.httpcomponents" name="httpcore">
+			<revision name="4.1.2" status="release" pubdate="20110710190325" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hc.apache.org/httpcomponents-core-ga" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="63">
+				<metadata-artifact status="no" details="" size="4675" time="0" location="/Users/zengdan/.ivy2/cache/org.apache.httpcomponents/httpcore/ivy-4.1.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.1.2/httpcore-4.1.2.pom"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="4.1.2" rev-constraint-default="4.1.2" rev-constraint-dynamic="4.1.2" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="httpcore" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="275267" time="0" location="/Users/zengdan/.ivy2/cache/org.apache.httpcomponents/httpcore/srcs/httpcore-4.1.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.1.2/httpcore-4.1.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.jsoup" name="jsoup">
+			<revision name="1.6.1" status="release" pubdate="20110702153256" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jsoup.org/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="61">
+				<license name="The MIT License" url="http://jsoup.com/license"/>
+				<metadata-artifact status="no" details="" size="2801" time="0" location="/Users/zengdan/.ivy2/cache/org.jsoup/jsoup/ivy-1.6.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/jsoup/jsoup/1.6.1/jsoup-1.6.1.pom"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="1.6.1" rev-constraint-default="1.6.1" rev-constraint-dynamic="1.6.1" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="jsoup" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="105487" time="0" location="/Users/zengdan/.ivy2/cache/org.jsoup/jsoup/srcs/jsoup-1.6.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/jsoup/jsoup/1.6.1/jsoup-1.6.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.maven.wagon" name="wagon-provider-api">
+			<revision name="2.2" status="release" pubdate="20111215202420" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="57">
+				<metadata-artifact status="no" details="" size="9202" time="0" location="/Users/zengdan/.ivy2/cache/org.apache.maven.wagon/wagon-provider-api/ivy-2.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/maven/wagon/wagon-provider-api/2.2/wagon-provider-api-2.2.pom"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="2.2" rev-constraint-default="2.2" rev-constraint-dynamic="2.2" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="wagon-provider-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="61796" time="0" location="/Users/zengdan/.ivy2/cache/org.apache.maven.wagon/wagon-provider-api/srcs/wagon-provider-api-2.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/maven/wagon/wagon-provider-api/2.2/wagon-provider-api-2.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.codehaus.plexus" name="plexus-utils">
+			<revision name="3.0" status="release" pubdate="20110624054931" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://plexus.codehaus.org/plexus-utils" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="58">
+				<metadata-artifact status="no" details="" size="5745" time="0" location="/Users/zengdan/.ivy2/cache/org.codehaus.plexus/plexus-utils/ivy-3.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-utils/3.0/plexus-utils-3.0.pom"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="3.0" rev-constraint-default="3.0" rev-constraint-dynamic="3.0" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="plexus-utils" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="251480" time="0" location="/Users/zengdan/.ivy2/cache/org.codehaus.plexus/plexus-utils/srcs/plexus-utils-3.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-utils/3.0/plexus-utils-3.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.sonatype.aether" name="aether-connector-wagon">
+			<revision name="1.13.1" status="release" pubdate="20111129213058" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="55">
+				<metadata-artifact status="no" details="" size="8032" time="0" location="/Users/zengdan/.ivy2/cache/org.sonatype.aether/aether-connector-wagon/ivy-1.13.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/sonatype/aether/aether-connector-wagon/1.13.1/aether-connector-wagon-1.13.1.pom"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="1.13.1" rev-constraint-default="1.13.1" rev-constraint-dynamic="1.13.1" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="aether-connector-wagon" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="13826" time="0" location="/Users/zengdan/.ivy2/cache/org.sonatype.aether/aether-connector-wagon/srcs/aether-connector-wagon-1.13.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/sonatype/aether/aether-connector-wagon/1.13.1/aether-connector-wagon-1.13.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.maven" name="maven-aether-provider">
+			<revision name="3.0.4" status="release" pubdate="20120117164443" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="45">
+				<metadata-artifact status="no" details="" size="15169" time="0" location="/Users/zengdan/.ivy2/cache/org.apache.maven/maven-aether-provider/ivy-3.0.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/maven/maven-aether-provider/3.0.4/maven-aether-provider-3.0.4.pom"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="3.0.4" rev-constraint-default="3.0.4" rev-constraint-dynamic="3.0.4" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="maven-aether-provider" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="40119" time="0" location="/Users/zengdan/.ivy2/cache/org.apache.maven/maven-aether-provider/srcs/maven-aether-provider-3.0.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/maven/maven-aether-provider/3.0.4/maven-aether-provider-3.0.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.sonatype.aether" name="aether-impl">
+			<revision name="1.13.1" status="release" pubdate="20111129213019" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="54">
+				<metadata-artifact status="no" details="" size="7436" time="0" location="/Users/zengdan/.ivy2/cache/org.sonatype.aether/aether-impl/ivy-1.13.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/sonatype/aether/aether-impl/1.13.1/aether-impl-1.13.1.pom"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="1.13.1" rev-constraint-default="1.13.1" rev-constraint-dynamic="1.13.1" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="aether-impl" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="76932" time="0" location="/Users/zengdan/.ivy2/cache/org.sonatype.aether/aether-impl/srcs/aether-impl-1.13.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/sonatype/aether/aether-impl/1.13.1/aether-impl-1.13.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.sonatype.aether" name="aether-util">
+			<revision name="1.13.1" status="release" pubdate="20111129212939" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="53">
+				<metadata-artifact status="no" details="" size="6717" time="0" location="/Users/zengdan/.ivy2/cache/org.sonatype.aether/aether-util/ivy-1.13.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/sonatype/aether/aether-util/1.13.1/aether-util-1.13.1.pom"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="1.13.1" rev-constraint-default="1.13.1" rev-constraint-dynamic="1.13.1" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="aether-util" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="102309" time="0" location="/Users/zengdan/.ivy2/cache/org.sonatype.aether/aether-util/srcs/aether-util-1.13.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/sonatype/aether/aether-util/1.13.1/aether-util-1.13.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.sonatype.aether" name="aether-spi">
+			<revision name="1.13.1" status="release" pubdate="20111129212852" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="52">
+				<metadata-artifact status="no" details="" size="6513" time="0" location="/Users/zengdan/.ivy2/cache/org.sonatype.aether/aether-spi/ivy-1.13.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/sonatype/aether/aether-spi/1.13.1/aether-spi-1.13.1.pom"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="1.13.1" rev-constraint-default="1.13.1" rev-constraint-dynamic="1.13.1" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="aether-spi" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="17620" time="0" location="/Users/zengdan/.ivy2/cache/org.sonatype.aether/aether-spi/srcs/aether-spi-1.13.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/sonatype/aether/aether-spi/1.13.1/aether-spi-1.13.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.sonatype.aether" name="aether-api">
+			<revision name="1.13.1" status="release" pubdate="20111129212830" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="51">
+				<metadata-artifact status="no" details="" size="6439" time="0" location="/Users/zengdan/.ivy2/cache/org.sonatype.aether/aether-api/ivy-1.13.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/sonatype/aether/aether-api/1.13.1/aether-api-1.13.1.pom"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="1.13.1" rev-constraint-default="1.13.1" rev-constraint-dynamic="1.13.1" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="aether-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="105177" time="0" location="/Users/zengdan/.ivy2/cache/org.sonatype.aether/aether-api/srcs/aether-api-1.13.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/sonatype/aether/aether-api/1.13.1/aether-api-1.13.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.maven" name="maven-repository-metadata">
+			<revision name="3.0.4" status="release" pubdate="20120117164418" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="50">
+				<metadata-artifact status="no" details="" size="13800" time="0" location="/Users/zengdan/.ivy2/cache/org.apache.maven/maven-repository-metadata/ivy-3.0.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/maven/maven-repository-metadata/3.0.4/maven-repository-metadata-3.0.4.pom"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="3.0.4" rev-constraint-default="3.0.4" rev-constraint-dynamic="3.0.4" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="maven-repository-metadata" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="20527" time="0" location="/Users/zengdan/.ivy2/cache/org.apache.maven/maven-repository-metadata/srcs/maven-repository-metadata-3.0.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/maven/maven-repository-metadata/3.0.4/maven-repository-metadata-3.0.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.maven" name="maven-model-builder">
+			<revision name="3.0.4" status="release" pubdate="20120117164250" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="47">
+				<metadata-artifact status="no" details="" size="14735" time="0" location="/Users/zengdan/.ivy2/cache/org.apache.maven/maven-model-builder/ivy-3.0.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/maven/maven-model-builder/3.0.4/maven-model-builder-3.0.4.pom"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="3.0.4" rev-constraint-default="3.0.4" rev-constraint-dynamic="3.0.4" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="maven-model-builder" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="137677" time="0" location="/Users/zengdan/.ivy2/cache/org.apache.maven/maven-model-builder/srcs/maven-model-builder-3.0.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/maven/maven-model-builder/3.0.4/maven-model-builder-3.0.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.sonatype.sisu" name="sisu-inject-plexus">
+			<revision name="2.3.0" status="release" pubdate="20110913121625" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="75">
+				<metadata-artifact status="no" details="" size="12475" time="0" location="/Users/zengdan/.ivy2/cache/org.sonatype.sisu/sisu-inject-plexus/ivy-2.3.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/sonatype/sisu/sisu-inject-plexus/2.3.0/sisu-inject-plexus-2.3.0.pom"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="2.3.0" rev-constraint-default="2.3.0" rev-constraint-dynamic="2.3.0" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="sisu-inject-plexus" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="165668" time="0" location="/Users/zengdan/.ivy2/cache/org.sonatype.sisu/sisu-inject-plexus/srcs/sisu-inject-plexus-2.3.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/sonatype/sisu/sisu-inject-plexus/2.3.0/sisu-inject-plexus-2.3.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.sonatype.sisu" name="sisu-inject-bean">
+			<revision name="2.3.0" status="release" pubdate="20110913121325" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="76">
+				<metadata-artifact status="no" details="" size="9254" time="0" location="/Users/zengdan/.ivy2/cache/org.sonatype.sisu/sisu-inject-bean/ivy-2.3.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/sonatype/sisu/sisu-inject-bean/2.3.0/sisu-inject-bean-2.3.0.pom"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="2.3.0" rev-constraint-default="2.3.0" rev-constraint-dynamic="2.3.0" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="sisu-inject-bean" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="284380" time="0" location="/Users/zengdan/.ivy2/cache/org.sonatype.sisu/sisu-inject-bean/srcs/sisu-inject-bean-2.3.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/sonatype/sisu/sisu-inject-bean/2.3.0/sisu-inject-bean-2.3.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.sonatype.sisu" name="sisu-guice">
+			<revision name="3.1.0" status="release" pubdate="20110903080108" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="77">
+				<metadata-artifact status="no" details="" size="4520" time="0" location="/Users/zengdan/.ivy2/cache/org.sonatype.sisu/sisu-guice/ivy-3.1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/sonatype/sisu/sisu-guice/3.1.0/sisu-guice-3.1.0.pom"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="3.1.0" rev-constraint-default="3.1.0" rev-constraint-dynamic="3.1.0" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="sisu-guice" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="270080" time="0" location="/Users/zengdan/.ivy2/cache/org.sonatype.sisu/sisu-guice/srcs/sisu-guice-3.1.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/sonatype/sisu/sisu-guice/3.1.0/sisu-guice-3.1.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.sonatype.sisu" name="sisu-guava">
+			<revision name="0.9.9" status="release" pubdate="20110902180206" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="80">
+				<metadata-artifact status="no" details="" size="3725" time="0" location="/Users/zengdan/.ivy2/cache/org.sonatype.sisu/sisu-guava/ivy-0.9.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/sonatype/sisu/sisu-guava/0.9.9/sisu-guava-0.9.9.pom"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="0.9.9" rev-constraint-default="0.9.9" rev-constraint-dynamic="0.9.9" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="sisu-guava" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="845474" time="0" location="/Users/zengdan/.ivy2/cache/org.sonatype.sisu/sisu-guava/srcs/sisu-guava-0.9.9-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/sonatype/sisu/sisu-guava/0.9.9/sisu-guava-0.9.9-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="aopalliance" name="aopalliance">
+			<revision name="1.0" status="release" pubdate="20070227064340" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://aopalliance.sourceforge.net" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="79">
+				<license name="Public Domain"/>
+				<metadata-artifact status="no" details="" size="2291" time="0" location="/Users/zengdan/.ivy2/cache/aopalliance/aopalliance/ivy-1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.pom"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="1.0" rev-constraint-default="1.0" rev-constraint-dynamic="1.0" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="aopalliance" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="21188" time="0" location="/Users/zengdan/.ivy2/cache/aopalliance/aopalliance/srcs/aopalliance-1.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax.inject" name="javax.inject">
+			<revision name="1" status="release" pubdate="20091014073500" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://code.google.com/p/atinject/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="78">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2380" time="0" location="/Users/zengdan/.ivy2/cache/javax.inject/javax.inject/ivy-1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.pom"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="1" rev-constraint-default="1" rev-constraint-dynamic="1" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="javax.inject" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="10928" time="0" location="/Users/zengdan/.ivy2/cache/javax.inject/javax.inject/srcs/javax.inject-1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.codehaus.plexus" name="plexus-classworlds">
+			<revision name="2.4" status="release" pubdate="20101114025917" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="56">
+				<metadata-artifact status="no" details="" size="2963" time="0" location="/Users/zengdan/.ivy2/cache/org.codehaus.plexus/plexus-classworlds/ivy-2.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-classworlds/2.4/plexus-classworlds-2.4.pom"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="2.4" rev-constraint-default="2.4" rev-constraint-dynamic="2.4" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="plexus-classworlds" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="49560" time="0" location="/Users/zengdan/.ivy2/cache/org.codehaus.plexus/plexus-classworlds/srcs/plexus-classworlds-2.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-classworlds/2.4/plexus-classworlds-2.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.codehaus.plexus" name="plexus-component-annotations">
+			<revision name="1.5.5" status="release" pubdate="20101001041459" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="49">
+				<metadata-artifact status="no" details="" size="6203" time="0" location="/Users/zengdan/.ivy2/cache/org.codehaus.plexus/plexus-component-annotations/ivy-1.5.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.pom"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="1.5.5" rev-constraint-default="1.5.5" rev-constraint-dynamic="1.5.5" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="plexus-component-annotations" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="3725" time="0" location="/Users/zengdan/.ivy2/cache/org.codehaus.plexus/plexus-component-annotations/srcs/plexus-component-annotations-1.5.5-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.codehaus.plexus" name="plexus-interpolation">
+			<revision name="1.14" status="release" pubdate="20100924031505" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="48">
+				<metadata-artifact status="no" details="" size="3626" time="0" location="/Users/zengdan/.ivy2/cache/org.codehaus.plexus/plexus-interpolation/ivy-1.14.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-interpolation/1.14/plexus-interpolation-1.14.pom"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="1.14" rev-constraint-default="1.14" rev-constraint-dynamic="1.14" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="plexus-interpolation" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="71096" time="0" location="/Users/zengdan/.ivy2/cache/org.codehaus.plexus/plexus-interpolation/srcs/plexus-interpolation-1.14-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-interpolation/1.14/plexus-interpolation-1.14-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.maven" name="maven-model">
+			<revision name="3.0.4" status="release" pubdate="20120117164116" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="46">
+				<metadata-artifact status="no" details="" size="13813" time="0" location="/Users/zengdan/.ivy2/cache/org.apache.maven/maven-model/ivy-3.0.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/maven/maven-model/3.0.4/maven-model-3.0.4.pom"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="3.0.4" rev-constraint-default="3.0.4" rev-constraint-dynamic="3.0.4" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="maven-model" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="117497" time="0" location="/Users/zengdan/.ivy2/cache/org.apache.maven/maven-model/srcs/maven-model-3.0.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/maven/maven-model/3.0.4/maven-model-3.0.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.jetbrains" name="sbt-structure">
+			<revision name="2.4.0" status="release" pubdate="20140527185841" resolver="sbt-chain" artresolver="sbt-chain" extra-sbtVersion="0.13" extra-scalaVersion="2.10" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="44">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="1614" time="0" location="/Users/zengdan/.ivy2/cache/scala_2.10/sbt_0.13/org.jetbrains/sbt-structure/ivy-2.4.0.xml" searched="false" origin-is-local="false" origin-location="https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.jetbrains/sbt-structure/scala_2.10/sbt_0.13/2.4.0/ivys/ivy.xml"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="0.1-SNAPSHOT" extra-sbtVersion="0.13" extra-scalaVersion="2.10"/>
+				<artifacts>
+					<artifact name="sbt-structure" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="6167" time="0" location="/Users/zengdan/.ivy2/cache/scala_2.10/sbt_0.13/org.jetbrains/sbt-structure/srcs/sbt-structure-2.4.0-sources.jar">
+						<origin-location is-local="false" location="https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.jetbrains/sbt-structure/scala_2.10/sbt_0.13/2.4.0/srcs/sbt-structure-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-sbt" name="sbt">
+			<revision name="0.13.6" status="release" pubdate="20140912110741" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="0">
+				<metadata-artifact status="no" details="" size="1791" time="0" location="/Users/zengdan/.ivy2/cache/org.scala-sbt/sbt/ivy-0.13.6.xml" searched="false" origin-is-local="false" origin-location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/sbt/0.13.6/ivys/ivy.xml"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="0.13.6" rev-constraint-default="0.13.6" rev-constraint-dynamic="0.13.6" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="sbt" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1086" time="0" location="/Users/zengdan/.ivy2/cache/org.scala-sbt/sbt/srcs/sbt-0.13.6-sources.jar">
+						<origin-location is-local="false" location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/sbt/0.13.6/srcs/sbt-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-sbt" name="precompiled-2_9_3">
+			<revision name="0.13.6" status="release" pubdate="20140912110621" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="43">
+				<metadata-artifact status="no" details="" size="1505" time="0" location="/Users/zengdan/.ivy2/cache/org.scala-sbt/precompiled-2_9_3/ivy-0.13.6.xml" searched="false" origin-is-local="false" origin-location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/precompiled-2_9_3/0.13.6/ivys/ivy.xml"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="0.13.6" rev-constraint-default="0.13.6" rev-constraint-dynamic="0.13.6" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="precompiled-2_9_3" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="30205" time="0" location="/Users/zengdan/.ivy2/cache/org.scala-sbt/precompiled-2_9_3/srcs/precompiled-2_9_3-0.13.6-sources.jar">
+						<origin-location is-local="false" location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/precompiled-2_9_3/0.13.6/srcs/precompiled-2_9_3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-sbt" name="precompiled-2_9_2">
+			<revision name="0.13.6" status="release" pubdate="20140912110621" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="42">
+				<metadata-artifact status="no" details="" size="1505" time="0" location="/Users/zengdan/.ivy2/cache/org.scala-sbt/precompiled-2_9_2/ivy-0.13.6.xml" searched="false" origin-is-local="false" origin-location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/precompiled-2_9_2/0.13.6/ivys/ivy.xml"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="0.13.6" rev-constraint-default="0.13.6" rev-constraint-dynamic="0.13.6" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="precompiled-2_9_2" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="30205" time="0" location="/Users/zengdan/.ivy2/cache/org.scala-sbt/precompiled-2_9_2/srcs/precompiled-2_9_2-0.13.6-sources.jar">
+						<origin-location is-local="false" location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/precompiled-2_9_2/0.13.6/srcs/precompiled-2_9_2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-sbt" name="precompiled-2_8_2">
+			<revision name="0.13.6" status="release" pubdate="20140912110621" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="41">
+				<metadata-artifact status="no" details="" size="1511" time="0" location="/Users/zengdan/.ivy2/cache/org.scala-sbt/precompiled-2_8_2/ivy-0.13.6.xml" searched="false" origin-is-local="false" origin-location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/precompiled-2_8_2/0.13.6/ivys/ivy.xml"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="0.13.6" rev-constraint-default="0.13.6" rev-constraint-dynamic="0.13.6" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="precompiled-2_8_2" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="30205" time="0" location="/Users/zengdan/.ivy2/cache/org.scala-sbt/precompiled-2_8_2/srcs/precompiled-2_8_2-0.13.6-sources.jar">
+						<origin-location is-local="false" location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/precompiled-2_8_2/0.13.6/srcs/precompiled-2_8_2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-sbt" name="main">
+			<revision name="0.13.6" status="release" pubdate="20140912110730" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="2">
+				<metadata-artifact status="no" details="" size="2556" time="0" location="/Users/zengdan/.ivy2/cache/org.scala-sbt/main/ivy-0.13.6.xml" searched="false" origin-is-local="false" origin-location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/main/0.13.6/ivys/ivy.xml"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="0.13.6" rev-constraint-default="0.13.6" rev-constraint-dynamic="0.13.6" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="main" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="160779" time="0" location="/Users/zengdan/.ivy2/cache/org.scala-sbt/main/srcs/main-0.13.6-sources.jar">
+						<origin-location is-local="false" location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/main/0.13.6/srcs/main-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-sbt" name="logic">
+			<revision name="0.13.6" status="release" pubdate="20140912110641" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="40">
+				<metadata-artifact status="no" details="" size="1668" time="0" location="/Users/zengdan/.ivy2/cache/org.scala-sbt/logic/ivy-0.13.6.xml" searched="false" origin-is-local="false" origin-location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/logic/0.13.6/ivys/ivy.xml"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="0.13.6" rev-constraint-default="0.13.6" rev-constraint-dynamic="0.13.6" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="logic" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="5039" time="0" location="/Users/zengdan/.ivy2/cache/org.scala-sbt/logic/srcs/logic-0.13.6-sources.jar">
+						<origin-location is-local="false" location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/logic/0.13.6/srcs/logic-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-sbt" name="main-settings">
+			<revision name="0.13.6" status="release" pubdate="20140912110707" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="37">
+				<metadata-artifact status="no" details="" size="2706" time="0" location="/Users/zengdan/.ivy2/cache/org.scala-sbt/main-settings/ivy-0.13.6.xml" searched="false" origin-is-local="false" origin-location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/main-settings/0.13.6/ivys/ivy.xml"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="0.13.6" rev-constraint-default="0.13.6" rev-constraint-dynamic="0.13.6" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="main-settings" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="30721" time="0" location="/Users/zengdan/.ivy2/cache/org.scala-sbt/main-settings/srcs/main-settings-0.13.6-sources.jar">
+						<origin-location is-local="false" location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/main-settings/0.13.6/srcs/main-settings-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-sbt" name="command">
+			<revision name="0.13.6" status="release" pubdate="20140912110659" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="39">
+				<metadata-artifact status="no" details="" size="2187" time="0" location="/Users/zengdan/.ivy2/cache/org.scala-sbt/command/ivy-0.13.6.xml" searched="false" origin-is-local="false" origin-location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/command/0.13.6/ivys/ivy.xml"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="0.13.6" rev-constraint-default="0.13.6" rev-constraint-dynamic="0.13.6" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="command" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="20830" time="0" location="/Users/zengdan/.ivy2/cache/org.scala-sbt/command/srcs/command-0.13.6-sources.jar">
+						<origin-location is-local="false" location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/command/0.13.6/srcs/command-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-sbt" name="apply-macro">
+			<revision name="0.13.6" status="release" pubdate="20140912110535" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="38">
+				<metadata-artifact status="no" details="" size="1696" time="0" location="/Users/zengdan/.ivy2/cache/org.scala-sbt/apply-macro/ivy-0.13.6.xml" searched="false" origin-is-local="false" origin-location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/apply-macro/0.13.6/ivys/ivy.xml"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="0.13.6" rev-constraint-default="0.13.6" rev-constraint-dynamic="0.13.6" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="apply-macro" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="13450" time="0" location="/Users/zengdan/.ivy2/cache/org.scala-sbt/apply-macro/srcs/apply-macro-0.13.6-sources.jar">
+						<origin-location is-local="false" location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/apply-macro/0.13.6/srcs/apply-macro-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-sbt" name="actions">
+			<revision name="0.13.6" status="release" pubdate="20140912110723" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="3">
+				<metadata-artifact status="no" details="" size="3073" time="0" location="/Users/zengdan/.ivy2/cache/org.scala-sbt/actions/ivy-0.13.6.xml" searched="false" origin-is-local="false" origin-location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/actions/0.13.6/ivys/ivy.xml"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="0.13.6" rev-constraint-default="0.13.6" rev-constraint-dynamic="0.13.6" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="actions" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="29334" time="0" location="/Users/zengdan/.ivy2/cache/org.scala-sbt/actions/srcs/actions-0.13.6-sources.jar">
+						<origin-location is-local="false" location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/actions/0.13.6/srcs/actions-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-sbt" name="testing">
+			<revision name="0.13.6" status="release" pubdate="20140912110659" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="34">
+				<metadata-artifact status="no" details="" size="1794" time="0" location="/Users/zengdan/.ivy2/cache/org.scala-sbt/testing/ivy-0.13.6.xml" searched="false" origin-is-local="false" origin-location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/testing/0.13.6/ivys/ivy.xml"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="0.13.6" rev-constraint-default="0.13.6" rev-constraint-dynamic="0.13.6" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="testing" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="9925" time="0" location="/Users/zengdan/.ivy2/cache/org.scala-sbt/testing/srcs/testing-0.13.6-sources.jar">
+						<origin-location is-local="false" location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/testing/0.13.6/srcs/testing-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-sbt" name="test-agent">
+			<revision name="0.13.6" status="release" pubdate="20140912110511" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="35">
+				<metadata-artifact status="no" details="" size="1310" time="0" location="/Users/zengdan/.ivy2/cache/org.scala-sbt/test-agent/ivy-0.13.6.xml" searched="false" origin-is-local="false" origin-location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/test-agent/0.13.6/ivys/ivy.xml"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="0.13.6" rev-constraint-default="0.13.6" rev-constraint-dynamic="0.13.6" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="test-agent" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="6334" time="0" location="/Users/zengdan/.ivy2/cache/org.scala-sbt/test-agent/srcs/test-agent-0.13.6-sources.jar">
+						<origin-location is-local="false" location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/test-agent/0.13.6/srcs/test-agent-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-sbt" name="test-interface">
+			<revision name="1.0" status="release" pubdate="20130629064435" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-sbt.org" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="36">
+				<license name="BSD" url="https://github.com/sbt/test-interface/blob/master/LICENSE"/>
+				<metadata-artifact status="no" details="" size="2589" time="0" location="/Users/zengdan/.ivy2/cache/org.scala-sbt/test-interface/ivy-1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0.pom"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="1.0" rev-constraint-default="1.0" rev-constraint-dynamic="1.0" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="test-interface" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="18792" time="0" location="/Users/zengdan/.ivy2/cache/org.scala-sbt/test-interface/srcs/test-interface-1.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-sbt" name="tracking">
+			<revision name="0.13.6" status="release" pubdate="20140912110618" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="32">
+				<metadata-artifact status="no" details="" size="1388" time="0" location="/Users/zengdan/.ivy2/cache/org.scala-sbt/tracking/ivy-0.13.6.xml" searched="false" origin-is-local="false" origin-location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/tracking/0.13.6/ivys/ivy.xml"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="0.13.6" rev-constraint-default="0.13.6" rev-constraint-dynamic="0.13.6" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="tracking" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="4955" time="0" location="/Users/zengdan/.ivy2/cache/org.scala-sbt/tracking/srcs/tracking-0.13.6-sources.jar">
+						<origin-location is-local="false" location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/tracking/0.13.6/srcs/tracking-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-sbt" name="cache">
+			<revision name="0.13.6" status="release" pubdate="20140912110553" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="33">
+				<metadata-artifact status="no" details="" size="1493" time="0" location="/Users/zengdan/.ivy2/cache/org.scala-sbt/cache/ivy-0.13.6.xml" searched="false" origin-is-local="false" origin-location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/cache/0.13.6/ivys/ivy.xml"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="0.13.6" rev-constraint-default="0.13.6" rev-constraint-dynamic="0.13.6" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="cache" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="7071" time="0" location="/Users/zengdan/.ivy2/cache/org.scala-sbt/cache/srcs/cache-0.13.6-sources.jar">
+						<origin-location is-local="false" location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/cache/0.13.6/srcs/cache-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-sbt" name="task-system">
+			<revision name="0.13.6" status="release" pubdate="20140912110629" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="30">
+				<metadata-artifact status="no" details="" size="1986" time="0" location="/Users/zengdan/.ivy2/cache/org.scala-sbt/task-system/ivy-0.13.6.xml" searched="false" origin-is-local="false" origin-location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/task-system/0.13.6/ivys/ivy.xml"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="0.13.6" rev-constraint-default="0.13.6" rev-constraint-dynamic="0.13.6" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="task-system" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="8971" time="0" location="/Users/zengdan/.ivy2/cache/org.scala-sbt/task-system/srcs/task-system-0.13.6-sources.jar">
+						<origin-location is-local="false" location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/task-system/0.13.6/srcs/task-system-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-sbt" name="tasks">
+			<revision name="0.13.6" status="release" pubdate="20140912110553" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="31">
+				<metadata-artifact status="no" details="" size="1667" time="0" location="/Users/zengdan/.ivy2/cache/org.scala-sbt/tasks/ivy-0.13.6.xml" searched="false" origin-is-local="false" origin-location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/tasks/0.13.6/ivys/ivy.xml"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="0.13.6" rev-constraint-default="0.13.6" rev-constraint-dynamic="0.13.6" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="tasks" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="11903" time="0" location="/Users/zengdan/.ivy2/cache/org.scala-sbt/tasks/srcs/tasks-0.13.6-sources.jar">
+						<origin-location is-local="false" location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/tasks/0.13.6/srcs/tasks-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-sbt" name="run">
+			<revision name="0.13.6" status="release" pubdate="20140912110659" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="29">
+				<metadata-artifact status="no" details="" size="1868" time="0" location="/Users/zengdan/.ivy2/cache/org.scala-sbt/run/ivy-0.13.6.xml" searched="false" origin-is-local="false" origin-location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/run/0.13.6/ivys/ivy.xml"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="0.13.6" rev-constraint-default="0.13.6" rev-constraint-dynamic="0.13.6" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="run" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="17688" time="0" location="/Users/zengdan/.ivy2/cache/org.scala-sbt/run/srcs/run-0.13.6-sources.jar">
+						<origin-location is-local="false" location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/run/0.13.6/srcs/run-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-sbt" name="compiler-ivy-integration">
+			<revision name="0.13.6" status="release" pubdate="20140912110707" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="24">
+				<metadata-artifact status="no" details="" size="1455" time="0" location="/Users/zengdan/.ivy2/cache/org.scala-sbt/compiler-ivy-integration/ivy-0.13.6.xml" searched="false" origin-is-local="false" origin-location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/compiler-ivy-integration/0.13.6/ivys/ivy.xml"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="0.13.6" rev-constraint-default="0.13.6" rev-constraint-dynamic="0.13.6" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="compiler-ivy-integration" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1656" time="0" location="/Users/zengdan/.ivy2/cache/org.scala-sbt/compiler-ivy-integration/srcs/compiler-ivy-integration-0.13.6-sources.jar">
+						<origin-location is-local="false" location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/compiler-ivy-integration/0.13.6/srcs/compiler-ivy-integration-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-sbt" name="ivy">
+			<revision name="0.13.6" status="release" pubdate="20140912110629" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="25">
+				<metadata-artifact status="no" details="" size="2149" time="0" location="/Users/zengdan/.ivy2/cache/org.scala-sbt/ivy/ivy-0.13.6.xml" searched="false" origin-is-local="false" origin-location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/ivy/0.13.6/ivys/ivy.xml"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="0.13.6" rev-constraint-default="0.13.6" rev-constraint-dynamic="0.13.6" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="ivy" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="83606" time="0" location="/Users/zengdan/.ivy2/cache/org.scala-sbt/ivy/srcs/ivy-0.13.6-sources.jar">
+						<origin-location is-local="false" location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/ivy/0.13.6/srcs/ivy-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.jcraft" name="jsch">
+			<revision name="0.1.46" status="release" pubdate="20120202203927" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.jcraft.com/jsch/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="28">
+				<license name="Revised BSD" url="http://www.jcraft.com/jsch/LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="3203" time="0" location="/Users/zengdan/.ivy2/cache/com.jcraft/jsch/ivy-0.1.46.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/jcraft/jsch/0.1.46/jsch-0.1.46.pom"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="0.1.46" rev-constraint-default="0.1.46" rev-constraint-dynamic="0.1.46" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="jsch" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="219788" time="0" location="/Users/zengdan/.ivy2/cache/com.jcraft/jsch/srcs/jsch-0.1.46-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/jcraft/jsch/0.1.46/jsch-0.1.46-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-sbt.ivy" name="ivy">
+			<revision name="2.3.0-sbt-14d4d23e25f354cd296c73bfff405544434d5f80" status="release" pubdate="20140730185250" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="27">
+				<metadata-artifact status="no" details="" size="2013" time="0" location="/Users/zengdan/.ivy2/cache/org.scala-sbt.ivy/ivy/ivy-2.3.0-sbt-14d4d23e25f354cd296c73bfff405544434d5f80.xml" searched="false" origin-is-local="false" origin-location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt.ivy/ivy/2.3.0-sbt-14d4d23e25f354cd296c73bfff405544434d5f80/ivys/ivy.xml"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="2.3.0-sbt-14d4d23e25f354cd296c73bfff405544434d5f80" rev-constraint-default="2.3.0-sbt-14d4d23e25f354cd296c73bfff405544434d5f80" rev-constraint-dynamic="2.3.0-sbt-14d4d23e25f354cd296c73bfff405544434d5f80" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="ivy" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="885621" time="0" location="/Users/zengdan/.ivy2/cache/org.scala-sbt.ivy/ivy/srcs/ivy-2.3.0-sbt-14d4d23e25f354cd296c73bfff405544434d5f80-sources.jar">
+						<origin-location is-local="false" location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt.ivy/ivy/2.3.0-sbt-14d4d23e25f354cd296c73bfff405544434d5f80/srcs/ivy-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-sbt" name="cross">
+			<revision name="0.13.6" status="release" pubdate="20140912110503" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="26">
+				<metadata-artifact status="no" details="" size="1189" time="0" location="/Users/zengdan/.ivy2/cache/org.scala-sbt/cross/ivy-0.13.6.xml" searched="false" origin-is-local="false" origin-location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/cross/0.13.6/ivys/ivy.xml"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="0.13.6" rev-constraint-default="0.13.6" rev-constraint-dynamic="0.13.6" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="cross" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="248" time="0" location="/Users/zengdan/.ivy2/cache/org.scala-sbt/cross/srcs/cross-0.13.6-sources.jar">
+						<origin-location is-local="false" location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/cross/0.13.6/srcs/cross-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-sbt" name="compiler-integration">
+			<revision name="0.13.6" status="release" pubdate="20140912110722" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="15">
+				<metadata-artifact status="no" details="" size="1745" time="0" location="/Users/zengdan/.ivy2/cache/org.scala-sbt/compiler-integration/ivy-0.13.6.xml" searched="false" origin-is-local="false" origin-location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/compiler-integration/0.13.6/ivys/ivy.xml"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="0.13.6" rev-constraint-default="0.13.6" rev-constraint-dynamic="0.13.6" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="compiler-integration" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="5189" time="0" location="/Users/zengdan/.ivy2/cache/org.scala-sbt/compiler-integration/srcs/compiler-integration-0.13.6-sources.jar">
+						<origin-location is-local="false" location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/compiler-integration/0.13.6/srcs/compiler-integration-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-sbt" name="classfile">
+			<revision name="0.13.6" status="release" pubdate="20140912110629" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="23">
+				<metadata-artifact status="no" details="" size="1793" time="0" location="/Users/zengdan/.ivy2/cache/org.scala-sbt/classfile/ivy-0.13.6.xml" searched="false" origin-is-local="false" origin-location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/classfile/0.13.6/ivys/ivy.xml"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="0.13.6" rev-constraint-default="0.13.6" rev-constraint-dynamic="0.13.6" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="classfile" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="8085" time="0" location="/Users/zengdan/.ivy2/cache/org.scala-sbt/classfile/srcs/classfile-0.13.6-sources.jar">
+						<origin-location is-local="false" location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/classfile/0.13.6/srcs/classfile-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-sbt" name="persist">
+			<revision name="0.13.6" status="release" pubdate="20140912110722" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="21">
+				<metadata-artifact status="no" details="" size="1511" time="0" location="/Users/zengdan/.ivy2/cache/org.scala-sbt/persist/ivy-0.13.6.xml" searched="false" origin-is-local="false" origin-location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/persist/0.13.6/ivys/ivy.xml"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="0.13.6" rev-constraint-default="0.13.6" rev-constraint-dynamic="0.13.6" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="persist" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="11500" time="0" location="/Users/zengdan/.ivy2/cache/org.scala-sbt/persist/srcs/persist-0.13.6-sources.jar">
+						<origin-location is-local="false" location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/persist/0.13.6/srcs/persist-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-tools.sbinary" name="sbinary_2.10">
+			<revision name="0.4.2" status="release" pubdate="20140522001025" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="22">
+				<metadata-artifact status="no" details="" size="1401" time="0" location="/Users/zengdan/.ivy2/cache/org.scala-tools.sbinary/sbinary_2.10/ivy-0.4.2.xml" searched="false" origin-is-local="false" origin-location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-tools.sbinary/sbinary_2.10/0.4.2/ivys/ivy.xml"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="0.4.2" rev-constraint-default="0.4.2" rev-constraint-dynamic="0.4.2" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="sbinary_2.10" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="10117" time="0" location="/Users/zengdan/.ivy2/cache/org.scala-tools.sbinary/sbinary_2.10/srcs/sbinary_2.10-0.4.2-sources.jar">
+						<origin-location is-local="false" location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-tools.sbinary/sbinary_2.10/0.4.2/srcs/sbinary_2.10-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-sbt" name="compile">
+			<revision name="0.13.6" status="release" pubdate="20140912110659" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="20">
+				<metadata-artifact status="no" details="" size="2286" time="0" location="/Users/zengdan/.ivy2/cache/org.scala-sbt/compile/ivy-0.13.6.xml" searched="false" origin-is-local="false" origin-location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/compile/0.13.6/ivys/ivy.xml"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="0.13.6" rev-constraint-default="0.13.6" rev-constraint-dynamic="0.13.6" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="compile" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="13072" time="0" location="/Users/zengdan/.ivy2/cache/org.scala-sbt/compile/srcs/compile-0.13.6-sources.jar">
+						<origin-location is-local="false" location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/compile/0.13.6/srcs/compile-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-sbt" name="incremental-compiler">
+			<revision name="0.13.6" status="release" pubdate="20140912110657" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="16">
+				<metadata-artifact status="no" details="" size="2008" time="0" location="/Users/zengdan/.ivy2/cache/org.scala-sbt/incremental-compiler/ivy-0.13.6.xml" searched="false" origin-is-local="false" origin-location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/incremental-compiler/0.13.6/ivys/ivy.xml"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="0.13.6" rev-constraint-default="0.13.6" rev-constraint-dynamic="0.13.6" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="incremental-compiler" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="42329" time="0" location="/Users/zengdan/.ivy2/cache/org.scala-sbt/incremental-compiler/srcs/incremental-compiler-0.13.6-sources.jar">
+						<origin-location is-local="false" location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/incremental-compiler/0.13.6/srcs/incremental-compiler-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-sbt" name="relation">
+			<revision name="0.13.6" status="release" pubdate="20140912110621" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="19">
+				<metadata-artifact status="no" details="" size="1697" time="0" location="/Users/zengdan/.ivy2/cache/org.scala-sbt/relation/ivy-0.13.6.xml" searched="false" origin-is-local="false" origin-location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/relation/0.13.6/ivys/ivy.xml"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="0.13.6" rev-constraint-default="0.13.6" rev-constraint-dynamic="0.13.6" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="relation" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="2694" time="0" location="/Users/zengdan/.ivy2/cache/org.scala-sbt/relation/srcs/relation-0.13.6-sources.jar">
+						<origin-location is-local="false" location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/relation/0.13.6/srcs/relation-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-sbt" name="logging">
+			<revision name="0.13.6" status="release" pubdate="20140912110621" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="17">
+				<metadata-artifact status="no" details="" size="1778" time="0" location="/Users/zengdan/.ivy2/cache/org.scala-sbt/logging/ivy-0.13.6.xml" searched="false" origin-is-local="false" origin-location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/logging/0.13.6/ivys/ivy.xml"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="0.13.6" rev-constraint-default="0.13.6" rev-constraint-dynamic="0.13.6" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="logging" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="14897" time="0" location="/Users/zengdan/.ivy2/cache/org.scala-sbt/logging/srcs/logging-0.13.6-sources.jar">
+						<origin-location is-local="false" location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/logging/0.13.6/srcs/logging-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-sbt" name="process">
+			<revision name="0.13.6" status="release" pubdate="20140912110559" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="18">
+				<metadata-artifact status="no" details="" size="1274" time="0" location="/Users/zengdan/.ivy2/cache/org.scala-sbt/process/ivy-0.13.6.xml" searched="false" origin-is-local="false" origin-location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/process/0.13.6/ivys/ivy.xml"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="0.13.6" rev-constraint-default="0.13.6" rev-constraint-dynamic="0.13.6" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="process" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="10006" time="0" location="/Users/zengdan/.ivy2/cache/org.scala-sbt/process/srcs/process-0.13.6-sources.jar">
+						<origin-location is-local="false" location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/process/0.13.6/srcs/process-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-sbt" name="api">
+			<revision name="0.13.6" status="release" pubdate="20140912110621" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="14">
+				<metadata-artifact status="no" details="" size="1580" time="0" location="/Users/zengdan/.ivy2/cache/org.scala-sbt/api/ivy-0.13.6.xml" searched="false" origin-is-local="false" origin-location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/api/0.13.6/ivys/ivy.xml"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="0.13.6" rev-constraint-default="0.13.6" rev-constraint-dynamic="0.13.6" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="25154" time="0" location="/Users/zengdan/.ivy2/cache/org.scala-sbt/api/srcs/api-0.13.6-sources.jar">
+						<origin-location is-local="false" location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/api/0.13.6/srcs/api-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-sbt" name="completion">
+			<revision name="0.13.6" status="release" pubdate="20140912110553" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="11">
+				<metadata-artifact status="no" details="" size="1864" time="0" location="/Users/zengdan/.ivy2/cache/org.scala-sbt/completion/ivy-0.13.6.xml" searched="false" origin-is-local="false" origin-location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/completion/0.13.6/ivys/ivy.xml"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="0.13.6" rev-constraint-default="0.13.6" rev-constraint-dynamic="0.13.6" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="completion" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="27969" time="0" location="/Users/zengdan/.ivy2/cache/org.scala-sbt/completion/srcs/completion-0.13.6-sources.jar">
+						<origin-location is-local="false" location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/completion/0.13.6/srcs/completion-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="jline" name="jline">
+			<revision name="2.11" status="release" pubdate="20130520030100" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="13">
+				<license name="The BSD License" url="http://www.opensource.org/licenses/bsd-license.php"/>
+				<metadata-artifact status="no" details="" size="3767" time="0" location="/Users/zengdan/.ivy2/cache/jline/jline/ivy-2.11.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/jline/jline/2.11/jline-2.11.pom"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="2.11" rev-constraint-default="2.11" rev-constraint-dynamic="2.11" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="jline" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="84971" time="0" location="/Users/zengdan/.ivy2/cache/jline/jline/srcs/jline-2.11-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/jline/jline/2.11/jline-2.11-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-sbt" name="collections">
+			<revision name="0.13.6" status="release" pubdate="20140912110503" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="12">
+				<metadata-artifact status="no" details="" size="1493" time="0" location="/Users/zengdan/.ivy2/cache/org.scala-sbt/collections/ivy-0.13.6.xml" searched="false" origin-is-local="false" origin-location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/collections/0.13.6/ivys/ivy.xml"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="0.13.6" rev-constraint-default="0.13.6" rev-constraint-dynamic="0.13.6" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="collections" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="28361" time="0" location="/Users/zengdan/.ivy2/cache/org.scala-sbt/collections/srcs/collections-0.13.6-sources.jar">
+						<origin-location is-local="false" location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/collections/0.13.6/srcs/collections-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-sbt" name="classpath">
+			<revision name="0.13.6" status="release" pubdate="20140912110621" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="4">
+				<metadata-artifact status="no" details="" size="1906" time="0" location="/Users/zengdan/.ivy2/cache/org.scala-sbt/classpath/ivy-0.13.6.xml" searched="false" origin-is-local="false" origin-location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/classpath/0.13.6/ivys/ivy.xml"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="0.13.6" rev-constraint-default="0.13.6" rev-constraint-dynamic="0.13.6" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="classpath" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="13001" time="0" location="/Users/zengdan/.ivy2/cache/org.scala-sbt/classpath/srcs/classpath-0.13.6-sources.jar">
+						<origin-location is-local="false" location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/classpath/0.13.6/srcs/classpath-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-sbt" name="io">
+			<revision name="0.13.6" status="release" pubdate="20140912110538" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="9">
+				<metadata-artifact status="no" details="" size="1653" time="0" location="/Users/zengdan/.ivy2/cache/org.scala-sbt/io/ivy-0.13.6.xml" searched="false" origin-is-local="false" origin-location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/io/0.13.6/ivys/ivy.xml"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="0.13.6" rev-constraint-default="0.13.6" rev-constraint-dynamic="0.13.6" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="io" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="26578" time="0" location="/Users/zengdan/.ivy2/cache/org.scala-sbt/io/srcs/io-0.13.6-sources.jar">
+						<origin-location is-local="false" location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/io/0.13.6/srcs/io-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-sbt" name="control">
+			<revision name="0.13.6" status="release" pubdate="20140912110503" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="10">
+				<metadata-artifact status="no" details="" size="1197" time="0" location="/Users/zengdan/.ivy2/cache/org.scala-sbt/control/ivy-0.13.6.xml" searched="false" origin-is-local="false" origin-location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/control/0.13.6/ivys/ivy.xml"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="0.13.6" rev-constraint-default="0.13.6" rev-constraint-dynamic="0.13.6" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="control" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="3201" time="0" location="/Users/zengdan/.ivy2/cache/org.scala-sbt/control/srcs/control-0.13.6-sources.jar">
+						<origin-location is-local="false" location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/control/0.13.6/srcs/control-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-sbt" name="interface">
+			<revision name="0.13.6" status="release" pubdate="20140912110618" resolver="sbt-chain" artresolver="sbt-chain" extra-component="xsbti" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="8">
+				<metadata-artifact status="no" details="" size="1225" time="0" location="/Users/zengdan/.ivy2/cache/org.scala-sbt/interface/ivy-0.13.6.xml" searched="false" origin-is-local="false" origin-location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/interface/0.13.6/ivys/ivy.xml"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="0.13.6" rev-constraint-default="0.13.6" rev-constraint-dynamic="0.13.6" callerrev="0.1-SNAPSHOT" extra-component="xsbti"/>
+				<artifacts>
+					<artifact name="interface" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="15287" time="0" location="/Users/zengdan/.ivy2/cache/org.scala-sbt/interface/srcs/interface-0.13.6-sources.jar">
+						<origin-location is-local="false" location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/interface/0.13.6/srcs/interface-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-sbt" name="launcher-interface">
+			<revision name="0.13.6" status="release" pubdate="20140912110503" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="7">
+				<metadata-artifact status="no" details="" size="1241" time="0" location="/Users/zengdan/.ivy2/cache/org.scala-sbt/launcher-interface/ivy-0.13.6.xml" searched="false" origin-is-local="false" origin-location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/launcher-interface/0.13.6/ivys/ivy.xml"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="0.13.6" rev-constraint-default="0.13.6" rev-constraint-dynamic="0.13.6" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="launcher-interface" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="10605" time="0" location="/Users/zengdan/.ivy2/cache/org.scala-sbt/launcher-interface/srcs/launcher-interface-0.13.6-sources.jar">
+						<origin-location is-local="false" location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/launcher-interface/0.13.6/srcs/launcher-interface-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-compiler">
+			<revision name="2.10.4" status="release" pubdate="20140319054738" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="5">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html    "/>
+				<metadata-artifact status="no" details="" size="2809" time="0" location="/Users/zengdan/.ivy2/cache/org.scala-lang/scala-compiler/ivy-2.10.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.10.4/scala-compiler-2.10.4.pom"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.4" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="scala-compiler" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="2058278" time="0" location="/Users/zengdan/.ivy2/cache/org.scala-lang/scala-compiler/srcs/scala-compiler-2.10.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.10.4/scala-compiler-2.10.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-reflect">
+			<revision name="2.10.4" status="release" pubdate="20140319054707" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.10.4/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="6">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html    "/>
+				<metadata-artifact status="no" details="" size="2829" time="0" location="/Users/zengdan/.ivy2/cache/org.scala-lang/scala-reflect/ivy-2.10.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.4/scala-reflect-2.10.4.pom"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.4" callerrev="0.1-SNAPSHOT" extra-info.apiURL="http://www.scala-lang.org/api/2.10.4/"/>
+				<artifacts>
+					<artifact name="scala-reflect" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="434883" time="0" location="/Users/zengdan/.ivy2/cache/org.scala-lang/scala-reflect/srcs/scala-reflect-2.10.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.4/scala-reflect-2.10.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.10.4" status="release" pubdate="20140319054629" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.10.4/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="1">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html          "/>
+				<metadata-artifact status="no" details="" size="2669" time="0" location="/Users/zengdan/.ivy2/cache/org.scala-lang/scala-library/ivy-2.10.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.4/scala-library-2.10.4.pom"/>
+				<caller organisation="old-deps" name="old-deps$sources_2.10" conf="default" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.4" callerrev="0.1-SNAPSHOT" extra-info.apiURL="http://www.scala-lang.org/api/2.10.4/"/>
+				<artifacts>
+					<artifact name="scala-library" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1062421" time="0" location="/Users/zengdan/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.10.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.4/scala-library-2.10.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

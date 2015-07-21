@@ -1,0 +1,372 @@
+14:02:56.957 ScalaTest-run INFO SecurityManager: Changing view acls to: zengdan
+14:02:56.960 ScalaTest-run INFO SecurityManager: Changing modify acls to: zengdan
+14:02:56.961 ScalaTest-run INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(zengdan); users with modify permissions: Set(zengdan)
+14:02:57.767 sparkDriver-akka.actor.default-dispatcher-4 INFO Slf4jLogger: Slf4jLogger started
+14:02:57.862 sparkDriver-akka.actor.default-dispatcher-4 INFO Remoting: Starting remoting
+14:02:58.220 sparkDriver-akka.actor.default-dispatcher-4 INFO Remoting: Remoting started; listening on addresses :[akka.tcp://sparkDriver@10.30.1.142:58242]
+14:02:58.233 ScalaTest-run INFO Utils: Successfully started service 'sparkDriver' on port 58242.
+14:02:58.270 ScalaTest-run INFO SparkEnv: Registering MapOutputTracker
+14:02:58.296 ScalaTest-run INFO SparkEnv: Registering BlockManagerMaster
+14:02:58.322 ScalaTest-run INFO DiskBlockManager: Created local directory at /var/folders/fh/17x2x_7519x61rzpv8_wthn00000gn/T/spark-local-20150519140258-c28c
+14:02:58.331 ScalaTest-run INFO MemoryStore: MemoryStore started with capacity 245.7 MB
+14:02:58.744 ScalaTest-run WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+14:02:58.886 ScalaTest-run INFO HttpFileServer: HTTP File server directory is /var/folders/fh/17x2x_7519x61rzpv8_wthn00000gn/T/spark-9ba0f2db-d93f-45e0-9568-d9363250929f
+14:02:58.900 ScalaTest-run INFO HttpServer: Starting HTTP Server
+14:02:59.131 ScalaTest-run INFO Server: jetty-8.1.14.v20131031
+14:02:59.159 ScalaTest-run INFO AbstractConnector: Started SocketConnector@0.0.0.0:58243
+14:02:59.159 ScalaTest-run INFO Utils: Successfully started service 'HTTP file server' on port 58243.
+14:02:59.379 ScalaTest-run INFO Server: jetty-8.1.14.v20131031
+14:02:59.404 ScalaTest-run INFO AbstractConnector: Started SelectChannelConnector@0.0.0.0:4040
+14:02:59.404 ScalaTest-run INFO Utils: Successfully started service 'SparkUI' on port 4040.
+14:02:59.408 ScalaTest-run INFO SparkUI: Started SparkUI at http://10.30.1.142:4040
+14:02:59.629 sparkDriver-akka.actor.default-dispatcher-3 INFO AkkaUtils: Connecting to HeartbeatReceiver: akka.tcp://sparkDriver@10.30.1.142:58242/user/HeartbeatReceiver
+14:02:59.901 ScalaTest-run INFO NettyBlockTransferService: Server created on 58244
+14:02:59.906 ScalaTest-run INFO BlockManagerMaster: Trying to register BlockManager
+14:02:59.915 sparkDriver-akka.actor.default-dispatcher-3 INFO BlockManagerMasterActor: Registering block manager localhost:58244 with 245.7 MB RAM, BlockManagerId(<driver>, localhost, 58244)
+14:02:59.920 ScalaTest-run INFO BlockManagerMaster: Registered BlockManager
+14:03:00.880 ScalaTest-run INFO deprecation: mapred.reduce.tasks is deprecated. Instead, use mapreduce.job.reduces
+14:03:00.880 ScalaTest-run INFO deprecation: mapred.min.split.size is deprecated. Instead, use mapreduce.input.fileinputformat.split.minsize
+14:03:00.881 ScalaTest-run INFO deprecation: mapred.reduce.tasks.speculative.execution is deprecated. Instead, use mapreduce.reduce.speculative
+14:03:00.881 ScalaTest-run INFO deprecation: mapred.min.split.size.per.node is deprecated. Instead, use mapreduce.input.fileinputformat.split.minsize.per.node
+14:03:00.881 ScalaTest-run INFO deprecation: mapred.input.dir.recursive is deprecated. Instead, use mapreduce.input.fileinputformat.input.dir.recursive
+14:03:00.881 ScalaTest-run INFO deprecation: mapred.min.split.size.per.rack is deprecated. Instead, use mapreduce.input.fileinputformat.split.minsize.per.rack
+14:03:00.882 ScalaTest-run INFO deprecation: mapred.max.split.size is deprecated. Instead, use mapreduce.input.fileinputformat.split.maxsize
+14:03:00.882 ScalaTest-run INFO deprecation: mapred.committer.job.setup.cleanup.needed is deprecated. Instead, use mapreduce.job.committer.setup.cleanup.needed
+14:03:01.394 ScalaTest-run INFO HiveMetaStore: 0: Opening raw store with implemenation class:org.apache.hadoop.hive.metastore.ObjectStore
+14:03:01.447 ScalaTest-run INFO ObjectStore: ObjectStore, initialize called
+14:03:01.735 ScalaTest-run INFO Persistence: Property datanucleus.cache.level2 unknown - will be ignored
+14:03:01.735 ScalaTest-run INFO Persistence: Property hive.metastore.integral.jdo.pushdown unknown - will be ignored
+14:03:04.090 ScalaTest-run INFO ObjectStore: Setting MetaStore object pin classes with hive.metastore.cache.pinobjtypes="Table,StorageDescriptor,SerDeInfo,Partition,Database,Type,FieldSchema,Order"
+14:03:04.212 ScalaTest-run INFO MetaStoreDirectSql: MySQL check failed, assuming we are not on mysql: Lexical error at line 1, column 5.  Encountered: "@" (64), after : "".
+14:03:06.202 ScalaTest-run INFO Datastore: The class "org.apache.hadoop.hive.metastore.model.MFieldSchema" is tagged as "embedded-only" so does not have its own datastore table.
+14:03:06.203 ScalaTest-run INFO Datastore: The class "org.apache.hadoop.hive.metastore.model.MOrder" is tagged as "embedded-only" so does not have its own datastore table.
+14:03:06.667 ScalaTest-run INFO Datastore: The class "org.apache.hadoop.hive.metastore.model.MFieldSchema" is tagged as "embedded-only" so does not have its own datastore table.
+14:03:06.667 ScalaTest-run INFO Datastore: The class "org.apache.hadoop.hive.metastore.model.MOrder" is tagged as "embedded-only" so does not have its own datastore table.
+14:03:06.847 ScalaTest-run INFO Query: Reading in results for query "org.datanucleus.store.rdbms.query.SQLQuery@0" since the connection used is closing
+14:03:06.851 ScalaTest-run INFO ObjectStore: Initialized ObjectStore
+14:03:07.243 ScalaTest-run INFO HiveMetaStore: Added admin role in metastore
+14:03:07.246 ScalaTest-run INFO HiveMetaStore: Added public role in metastore
+14:03:07.365 ScalaTest-run INFO HiveMetaStore: No user is added in admin role, since config is empty
+14:03:07.712 ScalaTest-run INFO SessionState: No Tez session required at this point. hive.execution.engine=mr.
+14:03:13.882 ScalaTest-run-running-HiveTableCacheSuite INFO ParseDriver: Parsing command: select l_returnflag, l_linestatus, sum(l_quantity) as sum_qty, sum(l_extendedprice) as sum_base_price, sum(l_extendedprice * (1 - l_discount)) as sum_disc_price, sum(l_extendedprice * (1 - l_discount) * (1 + l_tax)) as sum_charge, avg(l_quantity) as avg_qty, avg(l_extendedprice) as avg_price, avg(l_discount) as avg_disc, count(*) as count_order
+                                from lineitem
+                                where l_shipdate <= '1998-09-16'
+                                group by l_returnflag, l_linestatus
+14:03:14.461 ScalaTest-run-running-HiveTableCacheSuite INFO ParseDriver: Parse Completed
+14:03:16.242 ScalaTest-run-running-HiveTableCacheSuite INFO HiveMetaStore: 0: get_table : db=default tbl=lineitem
+14:03:16.243 ScalaTest-run-running-HiveTableCacheSuite INFO audit: ugi=zengdan	ip=unknown-ip-addr	cmd=get_table : db=default tbl=lineitem	
+14:03:17.631 ScalaTest-run-running-HiveTableCacheSuite INFO deprecation: mapred.map.tasks is deprecated. Instead, use mapreduce.job.maps
+14:03:17.795 ScalaTest-run-running-HiveTableCacheSuite INFO MemoryStore: ensureFreeSpace(408579) called with curMem=0, maxMem=257635123
+14:03:17.800 ScalaTest-run-running-HiveTableCacheSuite INFO MemoryStore: Block broadcast_0 stored as values in memory (estimated size 399.0 KB, free 245.3 MB)
+14:03:17.906 ScalaTest-run-running-HiveTableCacheSuite INFO MemoryStore: ensureFreeSpace(60825) called with curMem=408579, maxMem=257635123
+14:03:17.907 ScalaTest-run-running-HiveTableCacheSuite INFO MemoryStore: Block broadcast_0_piece0 stored as bytes in memory (estimated size 59.4 KB, free 245.3 MB)
+14:03:17.910 sparkDriver-akka.actor.default-dispatcher-3 INFO BlockManagerInfo: Added broadcast_0_piece0 in memory on localhost:58244 (size: 59.4 KB, free: 245.6 MB)
+14:03:17.911 ScalaTest-run-running-HiveTableCacheSuite INFO BlockManagerMaster: Updated info of block broadcast_0_piece0
+14:03:17.916 ScalaTest-run-running-HiveTableCacheSuite INFO SparkContext: Created broadcast 0 from broadcast at TableReader.scala:68
+14:03:18.550 ScalaTest-run-running-HiveTableCacheSuite INFO SparkContext: Starting job: collect at SparkPlan.scala:96
+14:03:19.493 sparkDriver-akka.actor.default-dispatcher-3 INFO FileInputFormat: Total input paths to process : 1
+14:03:19.527 sparkDriver-akka.actor.default-dispatcher-3 INFO DAGScheduler: Registering RDD 7 (mapPartitions at Exchange.scala:148)
+14:03:19.532 sparkDriver-akka.actor.default-dispatcher-3 INFO DAGScheduler: Got job 0 (collect at SparkPlan.scala:96) with 2 output partitions (allowLocal=false)
+14:03:19.532 sparkDriver-akka.actor.default-dispatcher-3 INFO DAGScheduler: Final stage: Stage 1(collect at SparkPlan.scala:96)
+14:03:19.533 sparkDriver-akka.actor.default-dispatcher-3 INFO DAGScheduler: Parents of final stage: List(Stage 0)
+14:03:19.546 sparkDriver-akka.actor.default-dispatcher-3 INFO DAGScheduler: Missing parents: List(Stage 0)
+14:03:19.561 sparkDriver-akka.actor.default-dispatcher-3 INFO DAGScheduler: Submitting Stage 0 (MapPartitionsRDD[7] at mapPartitions at Exchange.scala:148), which has no missing parents
+14:03:19.602 sparkDriver-akka.actor.default-dispatcher-3 INFO MemoryStore: ensureFreeSpace(20224) called with curMem=469404, maxMem=257635123
+14:03:19.603 sparkDriver-akka.actor.default-dispatcher-3 INFO MemoryStore: Block broadcast_1 stored as values in memory (estimated size 19.8 KB, free 245.2 MB)
+14:03:19.605 sparkDriver-akka.actor.default-dispatcher-3 INFO MemoryStore: ensureFreeSpace(13249) called with curMem=489628, maxMem=257635123
+14:03:19.605 sparkDriver-akka.actor.default-dispatcher-3 INFO MemoryStore: Block broadcast_1_piece0 stored as bytes in memory (estimated size 12.9 KB, free 245.2 MB)
+14:03:19.606 sparkDriver-akka.actor.default-dispatcher-4 INFO BlockManagerInfo: Added broadcast_1_piece0 in memory on localhost:58244 (size: 12.9 KB, free: 245.6 MB)
+14:03:19.606 sparkDriver-akka.actor.default-dispatcher-3 INFO BlockManagerMaster: Updated info of block broadcast_1_piece0
+14:03:19.608 sparkDriver-akka.actor.default-dispatcher-3 INFO SparkContext: Created broadcast 1 from broadcast at DAGScheduler.scala:843
+14:03:19.625 sparkDriver-akka.actor.default-dispatcher-3 INFO DAGScheduler: Submitting 2 missing tasks from Stage 0 (MapPartitionsRDD[7] at mapPartitions at Exchange.scala:148)
+14:03:19.628 sparkDriver-akka.actor.default-dispatcher-3 INFO TaskSchedulerImpl: Adding task set 0.0 with 2 tasks
+14:03:19.681 sparkDriver-akka.actor.default-dispatcher-4 INFO TaskSetManager: Starting task 0.0 in stage 0.0 (TID 0, localhost, ANY, 1314 bytes)
+14:03:19.692 Executor task launch worker-0 INFO Executor: Running task 0.0 in stage 0.0 (TID 0)
+14:03:19.759 Executor task launch worker-0 INFO HadoopRDD: Input split: hdfs://localhost:9000/user/zengdan/tpch/lineitem/lineitem.tbl:0+37123498
+14:03:19.770 Executor task launch worker-0 INFO deprecation: mapred.tip.id is deprecated. Instead, use mapreduce.task.id
+14:03:19.770 Executor task launch worker-0 INFO deprecation: mapred.task.id is deprecated. Instead, use mapreduce.task.attempt.id
+14:03:19.771 Executor task launch worker-0 INFO deprecation: mapred.task.is.map is deprecated. Instead, use mapreduce.task.ismap
+14:03:19.771 Executor task launch worker-0 INFO deprecation: mapred.task.partition is deprecated. Instead, use mapreduce.task.partition
+14:03:19.771 Executor task launch worker-0 INFO deprecation: mapred.job.id is deprecated. Instead, use mapreduce.job.id
+14:03:22.055 Executor task launch worker-0 INFO Executor: Finished task 0.0 in stage 0.0 (TID 0). 2060 bytes result sent to driver
+14:03:22.061 sparkDriver-akka.actor.default-dispatcher-3 INFO TaskSetManager: Starting task 1.0 in stage 0.0 (TID 1, localhost, ANY, 1314 bytes)
+14:03:22.062 Executor task launch worker-0 INFO Executor: Running task 1.0 in stage 0.0 (TID 1)
+14:03:22.072 task-result-getter-0 INFO TaskSetManager: Finished task 0.0 in stage 0.0 (TID 0) in 2398 ms on localhost (1/2)
+14:03:22.082 Executor task launch worker-0 INFO HadoopRDD: Input split: hdfs://localhost:9000/user/zengdan/tpch/lineitem/lineitem.tbl:37123498+37123498
+14:03:23.655 Executor task launch worker-0 INFO Executor: Finished task 1.0 in stage 0.0 (TID 1). 1897 bytes result sent to driver
+14:03:23.660 task-result-getter-1 INFO TaskSetManager: Finished task 1.0 in stage 0.0 (TID 1) in 1599 ms on localhost (2/2)
+14:03:23.661 task-result-getter-1 INFO TaskSchedulerImpl: Removed TaskSet 0.0, whose tasks have all completed, from pool 
+14:03:23.661 sparkDriver-akka.actor.default-dispatcher-4 INFO DAGScheduler: Stage 0 (mapPartitions at Exchange.scala:148) finished in 4.008 s
+14:03:23.662 sparkDriver-akka.actor.default-dispatcher-4 INFO DAGScheduler: looking for newly runnable stages
+14:03:23.663 sparkDriver-akka.actor.default-dispatcher-4 INFO DAGScheduler: running: Set()
+14:03:23.663 sparkDriver-akka.actor.default-dispatcher-4 INFO DAGScheduler: waiting: Set(Stage 1)
+14:03:23.664 sparkDriver-akka.actor.default-dispatcher-4 INFO DAGScheduler: failed: Set()
+14:03:23.670 sparkDriver-akka.actor.default-dispatcher-4 INFO DAGScheduler: Missing parents for Stage 1: List()
+14:03:23.676 sparkDriver-akka.actor.default-dispatcher-4 INFO DAGScheduler: Submitting Stage 1 (MappedRDD[11] at map at SparkPlan.scala:96), which is now runnable
+14:03:23.686 sparkDriver-akka.actor.default-dispatcher-4 INFO MemoryStore: ensureFreeSpace(21296) called with curMem=502877, maxMem=257635123
+14:03:23.687 sparkDriver-akka.actor.default-dispatcher-4 INFO MemoryStore: Block broadcast_2 stored as values in memory (estimated size 20.8 KB, free 245.2 MB)
+14:03:23.688 sparkDriver-akka.actor.default-dispatcher-4 INFO MemoryStore: ensureFreeSpace(13319) called with curMem=524173, maxMem=257635123
+14:03:23.689 sparkDriver-akka.actor.default-dispatcher-4 INFO MemoryStore: Block broadcast_2_piece0 stored as bytes in memory (estimated size 13.0 KB, free 245.2 MB)
+14:03:23.690 sparkDriver-akka.actor.default-dispatcher-14 INFO BlockManagerInfo: Added broadcast_2_piece0 in memory on localhost:58244 (size: 13.0 KB, free: 245.6 MB)
+14:03:23.690 sparkDriver-akka.actor.default-dispatcher-4 INFO BlockManagerMaster: Updated info of block broadcast_2_piece0
+14:03:23.691 sparkDriver-akka.actor.default-dispatcher-4 INFO SparkContext: Created broadcast 2 from broadcast at DAGScheduler.scala:843
+14:03:23.694 sparkDriver-akka.actor.default-dispatcher-4 INFO DAGScheduler: Submitting 2 missing tasks from Stage 1 (MappedRDD[11] at map at SparkPlan.scala:96)
+14:03:23.694 sparkDriver-akka.actor.default-dispatcher-4 INFO TaskSchedulerImpl: Adding task set 1.0 with 2 tasks
+14:03:23.696 sparkDriver-akka.actor.default-dispatcher-14 INFO TaskSetManager: Starting task 0.0 in stage 1.0 (TID 2, localhost, PROCESS_LOCAL, 1056 bytes)
+14:03:23.696 Executor task launch worker-0 INFO Executor: Running task 0.0 in stage 1.0 (TID 2)
+14:03:23.743 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 2 non-empty blocks out of 2 blocks
+14:03:23.746 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 9 ms
+14:03:23.830 Executor task launch worker-0 INFO Executor: Finished task 0.0 in stage 1.0 (TID 2). 1356 bytes result sent to driver
+14:03:23.831 sparkDriver-akka.actor.default-dispatcher-14 INFO TaskSetManager: Starting task 1.0 in stage 1.0 (TID 3, localhost, PROCESS_LOCAL, 1056 bytes)
+14:03:23.832 Executor task launch worker-0 INFO Executor: Running task 1.0 in stage 1.0 (TID 3)
+14:03:23.833 task-result-getter-2 INFO TaskSetManager: Finished task 0.0 in stage 1.0 (TID 2) in 137 ms on localhost (1/2)
+14:03:23.853 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 2 non-empty blocks out of 2 blocks
+14:03:23.854 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 1 ms
+14:03:23.865 Executor task launch worker-0 INFO Executor: Finished task 1.0 in stage 1.0 (TID 3). 1356 bytes result sent to driver
+14:03:23.868 task-result-getter-3 INFO TaskSetManager: Finished task 1.0 in stage 1.0 (TID 3) in 36 ms on localhost (2/2)
+14:03:23.868 sparkDriver-akka.actor.default-dispatcher-14 INFO DAGScheduler: Stage 1 (collect at SparkPlan.scala:96) finished in 0.172 s
+14:03:23.868 task-result-getter-3 INFO TaskSchedulerImpl: Removed TaskSet 1.0, whose tasks have all completed, from pool 
+14:03:23.877 ScalaTest-run-running-HiveTableCacheSuite INFO DAGScheduler: Job 0 finished: collect at SparkPlan.scala:96, took 5.326591 s
+14:03:24.015 ScalaTest-run-running-HiveTableCacheSuite INFO ParseDriver: Parsing command: select l_returnflag, l_linestatus, sum(l_quantity) as sum_qty, sum(l_extendedprice) as sum_base_price, sum(l_extendedprice * (1 - l_discount)) as sum_disc_price, sum(l_extendedprice * (1 - l_discount) * (1 + l_tax)) as sum_charge, avg(l_quantity) as avg_qty, avg(l_extendedprice) as avg_price, avg(l_discount) as avg_disc, count(*) as count_order
+                                from lineitem
+                                where l_shipdate <= '1998-09-16'
+                                group by l_returnflag, l_linestatus
+14:03:24.021 ScalaTest-run-running-HiveTableCacheSuite INFO ParseDriver: Parse Completed
+14:03:24.028 ScalaTest-run-running-HiveTableCacheSuite INFO HiveMetaStore: 0: get_table : db=default tbl=lineitem
+14:03:24.028 ScalaTest-run-running-HiveTableCacheSuite INFO audit: ugi=zengdan	ip=unknown-ip-addr	cmd=get_table : db=default tbl=lineitem	
+14:03:24.209 ScalaTest-run-running-HiveTableCacheSuite INFO MemoryStore: ensureFreeSpace(408579) called with curMem=537492, maxMem=257635123
+14:03:24.210 ScalaTest-run-running-HiveTableCacheSuite INFO MemoryStore: Block broadcast_3 stored as values in memory (estimated size 399.0 KB, free 244.8 MB)
+14:03:24.245 ScalaTest-run-running-HiveTableCacheSuite INFO MemoryStore: ensureFreeSpace(60828) called with curMem=946071, maxMem=257635123
+14:03:24.246 ScalaTest-run-running-HiveTableCacheSuite INFO MemoryStore: Block broadcast_3_piece0 stored as bytes in memory (estimated size 59.4 KB, free 244.7 MB)
+14:03:24.246 sparkDriver-akka.actor.default-dispatcher-14 INFO BlockManagerInfo: Added broadcast_3_piece0 in memory on localhost:58244 (size: 59.4 KB, free: 245.6 MB)
+14:03:24.247 ScalaTest-run-running-HiveTableCacheSuite INFO BlockManagerMaster: Updated info of block broadcast_3_piece0
+14:03:24.249 ScalaTest-run-running-HiveTableCacheSuite INFO SparkContext: Created broadcast 3 from broadcast at TableReader.scala:68
+14:03:24.345 ScalaTest-run-running-HiveTableCacheSuite INFO SparkContext: Starting job: collect at SparkPlan.scala:96
+14:03:24.422 sparkDriver-akka.actor.default-dispatcher-3 INFO BlockManager: Removing broadcast 2
+14:03:24.426 sparkDriver-akka.actor.default-dispatcher-3 INFO BlockManager: Removing block broadcast_2
+14:03:24.427 sparkDriver-akka.actor.default-dispatcher-3 INFO MemoryStore: Block broadcast_2 of size 21296 dropped from memory (free 256649520)
+14:03:24.427 sparkDriver-akka.actor.default-dispatcher-3 INFO BlockManager: Removing block broadcast_2_piece0
+14:03:24.427 sparkDriver-akka.actor.default-dispatcher-3 INFO MemoryStore: Block broadcast_2_piece0 of size 13319 dropped from memory (free 256662839)
+14:03:24.429 sparkDriver-akka.actor.default-dispatcher-2 INFO BlockManagerInfo: Removed broadcast_2_piece0 on localhost:58244 in memory (size: 13.0 KB, free: 245.6 MB)
+14:03:24.429 sparkDriver-akka.actor.default-dispatcher-3 INFO BlockManagerMaster: Updated info of block broadcast_2_piece0
+14:03:24.431 sparkDriver-akka.actor.default-dispatcher-14 INFO FileInputFormat: Total input paths to process : 1
+14:03:24.431 sparkDriver-akka.actor.default-dispatcher-14 INFO DAGScheduler: Registering RDD 19 (mapPartitions at Exchange.scala:148)
+14:03:24.432 sparkDriver-akka.actor.default-dispatcher-14 INFO DAGScheduler: Got job 1 (collect at SparkPlan.scala:96) with 2 output partitions (allowLocal=false)
+14:03:24.432 sparkDriver-akka.actor.default-dispatcher-14 INFO DAGScheduler: Final stage: Stage 3(collect at SparkPlan.scala:96)
+14:03:24.432 sparkDriver-akka.actor.default-dispatcher-14 INFO DAGScheduler: Parents of final stage: List(Stage 2)
+14:03:24.433 Spark Context Cleaner INFO ContextCleaner: Cleaned broadcast 2
+14:03:24.434 sparkDriver-akka.actor.default-dispatcher-14 INFO DAGScheduler: Missing parents: List(Stage 2)
+14:03:24.438 sparkDriver-akka.actor.default-dispatcher-14 INFO DAGScheduler: Submitting Stage 2 (MapPartitionsRDD[19] at mapPartitions at Exchange.scala:148), which has no missing parents
+14:03:24.442 sparkDriver-akka.actor.default-dispatcher-14 INFO MemoryStore: ensureFreeSpace(20232) called with curMem=972284, maxMem=257635123
+14:03:24.442 sparkDriver-akka.actor.default-dispatcher-14 INFO MemoryStore: Block broadcast_4 stored as values in memory (estimated size 19.8 KB, free 244.8 MB)
+14:03:24.444 sparkDriver-akka.actor.default-dispatcher-14 INFO MemoryStore: ensureFreeSpace(13131) called with curMem=992516, maxMem=257635123
+14:03:24.444 sparkDriver-akka.actor.default-dispatcher-14 INFO MemoryStore: Block broadcast_4_piece0 stored as bytes in memory (estimated size 12.8 KB, free 244.7 MB)
+14:03:24.445 sparkDriver-akka.actor.default-dispatcher-4 INFO BlockManagerInfo: Added broadcast_4_piece0 in memory on localhost:58244 (size: 12.8 KB, free: 245.6 MB)
+14:03:24.445 sparkDriver-akka.actor.default-dispatcher-14 INFO BlockManagerMaster: Updated info of block broadcast_4_piece0
+14:03:24.446 sparkDriver-akka.actor.default-dispatcher-14 INFO SparkContext: Created broadcast 4 from broadcast at DAGScheduler.scala:843
+14:03:24.447 sparkDriver-akka.actor.default-dispatcher-14 INFO DAGScheduler: Submitting 2 missing tasks from Stage 2 (MapPartitionsRDD[19] at mapPartitions at Exchange.scala:148)
+14:03:24.447 sparkDriver-akka.actor.default-dispatcher-14 INFO TaskSchedulerImpl: Adding task set 2.0 with 2 tasks
+14:03:24.449 sparkDriver-akka.actor.default-dispatcher-4 INFO TaskSetManager: Starting task 0.0 in stage 2.0 (TID 4, localhost, ANY, 1314 bytes)
+14:03:24.449 Executor task launch worker-0 INFO Executor: Running task 0.0 in stage 2.0 (TID 4)
+14:03:24.465 Executor task launch worker-0 INFO HadoopRDD: Input split: hdfs://localhost:9000/user/zengdan/tpch/lineitem/lineitem.tbl:0+37123498
+14:03:26.115 Executor task launch worker-0 INFO Executor: Finished task 0.0 in stage 2.0 (TID 4). 1897 bytes result sent to driver
+14:03:26.117 sparkDriver-akka.actor.default-dispatcher-14 INFO TaskSetManager: Starting task 1.0 in stage 2.0 (TID 5, localhost, ANY, 1314 bytes)
+14:03:26.118 Executor task launch worker-0 INFO Executor: Running task 1.0 in stage 2.0 (TID 5)
+14:03:26.118 task-result-getter-0 INFO TaskSetManager: Finished task 0.0 in stage 2.0 (TID 4) in 1670 ms on localhost (1/2)
+14:03:26.130 Executor task launch worker-0 INFO HadoopRDD: Input split: hdfs://localhost:9000/user/zengdan/tpch/lineitem/lineitem.tbl:37123498+37123498
+14:03:27.694 Executor task launch worker-0 INFO Executor: Finished task 1.0 in stage 2.0 (TID 5). 1897 bytes result sent to driver
+14:03:27.698 task-result-getter-1 INFO TaskSetManager: Finished task 1.0 in stage 2.0 (TID 5) in 1582 ms on localhost (2/2)
+14:03:27.698 task-result-getter-1 INFO TaskSchedulerImpl: Removed TaskSet 2.0, whose tasks have all completed, from pool 
+14:03:27.698 sparkDriver-akka.actor.default-dispatcher-4 INFO DAGScheduler: Stage 2 (mapPartitions at Exchange.scala:148) finished in 3.250 s
+14:03:27.699 sparkDriver-akka.actor.default-dispatcher-4 INFO DAGScheduler: looking for newly runnable stages
+14:03:27.699 sparkDriver-akka.actor.default-dispatcher-4 INFO DAGScheduler: running: Set()
+14:03:27.699 sparkDriver-akka.actor.default-dispatcher-4 INFO DAGScheduler: waiting: Set(Stage 3)
+14:03:27.699 sparkDriver-akka.actor.default-dispatcher-4 INFO DAGScheduler: failed: Set()
+14:03:27.702 sparkDriver-akka.actor.default-dispatcher-4 INFO DAGScheduler: Missing parents for Stage 3: List()
+14:03:27.703 sparkDriver-akka.actor.default-dispatcher-4 INFO DAGScheduler: Submitting Stage 3 (MappedRDD[23] at map at SparkPlan.scala:96), which is now runnable
+14:03:27.707 sparkDriver-akka.actor.default-dispatcher-4 INFO MemoryStore: ensureFreeSpace(21304) called with curMem=1005647, maxMem=257635123
+14:03:27.708 sparkDriver-akka.actor.default-dispatcher-4 INFO MemoryStore: Block broadcast_5 stored as values in memory (estimated size 20.8 KB, free 244.7 MB)
+14:03:27.710 sparkDriver-akka.actor.default-dispatcher-4 INFO MemoryStore: ensureFreeSpace(13296) called with curMem=1026951, maxMem=257635123
+14:03:27.711 sparkDriver-akka.actor.default-dispatcher-4 INFO MemoryStore: Block broadcast_5_piece0 stored as bytes in memory (estimated size 13.0 KB, free 244.7 MB)
+14:03:27.712 sparkDriver-akka.actor.default-dispatcher-3 INFO BlockManagerInfo: Added broadcast_5_piece0 in memory on localhost:58244 (size: 13.0 KB, free: 245.5 MB)
+14:03:27.712 sparkDriver-akka.actor.default-dispatcher-4 INFO BlockManagerMaster: Updated info of block broadcast_5_piece0
+14:03:27.714 sparkDriver-akka.actor.default-dispatcher-4 INFO SparkContext: Created broadcast 5 from broadcast at DAGScheduler.scala:843
+14:03:27.714 sparkDriver-akka.actor.default-dispatcher-4 INFO DAGScheduler: Submitting 2 missing tasks from Stage 3 (MappedRDD[23] at map at SparkPlan.scala:96)
+14:03:27.714 sparkDriver-akka.actor.default-dispatcher-4 INFO TaskSchedulerImpl: Adding task set 3.0 with 2 tasks
+14:03:27.716 sparkDriver-akka.actor.default-dispatcher-3 INFO TaskSetManager: Starting task 0.0 in stage 3.0 (TID 6, localhost, PROCESS_LOCAL, 1056 bytes)
+14:03:27.716 Executor task launch worker-0 INFO Executor: Running task 0.0 in stage 3.0 (TID 6)
+14:03:27.729 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 2 non-empty blocks out of 2 blocks
+14:03:27.730 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 1 ms
+14:03:27.740 Executor task launch worker-0 INFO Executor: Finished task 0.0 in stage 3.0 (TID 6). 1356 bytes result sent to driver
+14:03:27.741 sparkDriver-akka.actor.default-dispatcher-3 INFO TaskSetManager: Starting task 1.0 in stage 3.0 (TID 7, localhost, PROCESS_LOCAL, 1056 bytes)
+14:03:27.742 Executor task launch worker-0 INFO Executor: Running task 1.0 in stage 3.0 (TID 7)
+14:03:27.743 task-result-getter-2 INFO TaskSetManager: Finished task 0.0 in stage 3.0 (TID 6) in 26 ms on localhost (1/2)
+14:03:27.760 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 2 non-empty blocks out of 2 blocks
+14:03:27.760 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+14:03:27.772 Executor task launch worker-0 INFO Executor: Finished task 1.0 in stage 3.0 (TID 7). 1356 bytes result sent to driver
+14:03:27.774 task-result-getter-3 INFO TaskSetManager: Finished task 1.0 in stage 3.0 (TID 7) in 33 ms on localhost (2/2)
+14:03:27.775 sparkDriver-akka.actor.default-dispatcher-4 INFO DAGScheduler: Stage 3 (collect at SparkPlan.scala:96) finished in 0.059 s
+14:03:27.775 task-result-getter-3 INFO TaskSchedulerImpl: Removed TaskSet 3.0, whose tasks have all completed, from pool 
+14:03:27.775 ScalaTest-run-running-HiveTableCacheSuite INFO DAGScheduler: Job 1 finished: collect at SparkPlan.scala:96, took 3.429610 s
+14:03:27.887 ScalaTest-run-running-HiveTableCacheSuite INFO ParseDriver: Parsing command: select l_returnflag, l_linestatus, sum(l_quantity) as sum_qty, sum(l_extendedprice) as sum_base_price, sum(l_extendedprice * (1 - l_discount)) as sum_disc_price, sum(l_extendedprice * (1 - l_discount) * (1 + l_tax)) as sum_charge, avg(l_quantity) as avg_qty, avg(l_extendedprice) as avg_price, avg(l_discount) as avg_disc, count(*) as count_order
+                                from lineitem
+                                where l_shipdate <= '1998-09-16'
+                                group by l_returnflag, l_linestatus
+14:03:27.893 ScalaTest-run-running-HiveTableCacheSuite INFO ParseDriver: Parse Completed
+14:03:27.900 ScalaTest-run-running-HiveTableCacheSuite INFO HiveMetaStore: 0: get_table : db=default tbl=lineitem
+14:03:27.900 ScalaTest-run-running-HiveTableCacheSuite INFO audit: ugi=zengdan	ip=unknown-ip-addr	cmd=get_table : db=default tbl=lineitem	
+14:03:28.039 ScalaTest-run-running-HiveTableCacheSuite INFO MemoryStore: ensureFreeSpace(408579) called with curMem=1040247, maxMem=257635123
+14:03:28.040 ScalaTest-run-running-HiveTableCacheSuite INFO MemoryStore: Block broadcast_6 stored as values in memory (estimated size 399.0 KB, free 244.3 MB)
+14:03:28.071 ScalaTest-run-running-HiveTableCacheSuite INFO MemoryStore: ensureFreeSpace(60829) called with curMem=1448826, maxMem=257635123
+14:03:28.072 ScalaTest-run-running-HiveTableCacheSuite INFO MemoryStore: Block broadcast_6_piece0 stored as bytes in memory (estimated size 59.4 KB, free 244.3 MB)
+14:03:28.073 sparkDriver-akka.actor.default-dispatcher-4 INFO BlockManagerInfo: Added broadcast_6_piece0 in memory on localhost:58244 (size: 59.4 KB, free: 245.5 MB)
+14:03:28.074 ScalaTest-run-running-HiveTableCacheSuite INFO BlockManagerMaster: Updated info of block broadcast_6_piece0
+14:03:28.076 ScalaTest-run-running-HiveTableCacheSuite INFO SparkContext: Created broadcast 6 from broadcast at TableReader.scala:68
+14:03:28.147 ScalaTest-run-running-HiveTableCacheSuite INFO SparkContext: Starting job: collect at SparkPlan.scala:96
+14:03:28.210 sparkDriver-akka.actor.default-dispatcher-4 INFO FileInputFormat: Total input paths to process : 1
+14:03:28.211 sparkDriver-akka.actor.default-dispatcher-4 INFO DAGScheduler: Registering RDD 31 (mapPartitions at Exchange.scala:148)
+14:03:28.212 sparkDriver-akka.actor.default-dispatcher-4 INFO DAGScheduler: Got job 2 (collect at SparkPlan.scala:96) with 2 output partitions (allowLocal=false)
+14:03:28.212 sparkDriver-akka.actor.default-dispatcher-4 INFO DAGScheduler: Final stage: Stage 5(collect at SparkPlan.scala:96)
+14:03:28.212 sparkDriver-akka.actor.default-dispatcher-4 INFO DAGScheduler: Parents of final stage: List(Stage 4)
+14:03:28.215 sparkDriver-akka.actor.default-dispatcher-4 INFO DAGScheduler: Missing parents: List(Stage 4)
+14:03:28.221 sparkDriver-akka.actor.default-dispatcher-4 INFO DAGScheduler: Submitting Stage 4 (MapPartitionsRDD[31] at mapPartitions at Exchange.scala:148), which has no missing parents
+14:03:28.224 sparkDriver-akka.actor.default-dispatcher-4 INFO MemoryStore: ensureFreeSpace(20240) called with curMem=1509655, maxMem=257635123
+14:03:28.224 sparkDriver-akka.actor.default-dispatcher-4 INFO MemoryStore: Block broadcast_7 stored as values in memory (estimated size 19.8 KB, free 244.2 MB)
+14:03:28.225 sparkDriver-akka.actor.default-dispatcher-4 INFO MemoryStore: ensureFreeSpace(13145) called with curMem=1529895, maxMem=257635123
+14:03:28.226 sparkDriver-akka.actor.default-dispatcher-4 INFO MemoryStore: Block broadcast_7_piece0 stored as bytes in memory (estimated size 12.8 KB, free 244.2 MB)
+14:03:28.227 sparkDriver-akka.actor.default-dispatcher-3 INFO BlockManagerInfo: Added broadcast_7_piece0 in memory on localhost:58244 (size: 12.8 KB, free: 245.5 MB)
+14:03:28.227 sparkDriver-akka.actor.default-dispatcher-4 INFO BlockManagerMaster: Updated info of block broadcast_7_piece0
+14:03:28.228 sparkDriver-akka.actor.default-dispatcher-4 INFO SparkContext: Created broadcast 7 from broadcast at DAGScheduler.scala:843
+14:03:28.229 sparkDriver-akka.actor.default-dispatcher-4 INFO DAGScheduler: Submitting 2 missing tasks from Stage 4 (MapPartitionsRDD[31] at mapPartitions at Exchange.scala:148)
+14:03:28.230 sparkDriver-akka.actor.default-dispatcher-4 INFO TaskSchedulerImpl: Adding task set 4.0 with 2 tasks
+14:03:28.231 sparkDriver-akka.actor.default-dispatcher-3 INFO TaskSetManager: Starting task 0.0 in stage 4.0 (TID 8, localhost, ANY, 1314 bytes)
+14:03:28.231 Executor task launch worker-0 INFO Executor: Running task 0.0 in stage 4.0 (TID 8)
+14:03:28.246 Executor task launch worker-0 INFO HadoopRDD: Input split: hdfs://localhost:9000/user/zengdan/tpch/lineitem/lineitem.tbl:0+37123498
+14:03:28.401 sparkDriver-akka.actor.default-dispatcher-14 INFO BlockManager: Removing broadcast 5
+14:03:28.401 sparkDriver-akka.actor.default-dispatcher-14 INFO BlockManager: Removing block broadcast_5_piece0
+14:03:28.401 sparkDriver-akka.actor.default-dispatcher-14 INFO MemoryStore: Block broadcast_5_piece0 of size 13296 dropped from memory (free 256105379)
+14:03:28.402 sparkDriver-akka.actor.default-dispatcher-15 INFO BlockManagerInfo: Removed broadcast_5_piece0 on localhost:58244 in memory (size: 13.0 KB, free: 245.5 MB)
+14:03:28.402 sparkDriver-akka.actor.default-dispatcher-14 INFO BlockManagerMaster: Updated info of block broadcast_5_piece0
+14:03:28.402 sparkDriver-akka.actor.default-dispatcher-14 INFO BlockManager: Removing block broadcast_5
+14:03:28.403 sparkDriver-akka.actor.default-dispatcher-14 INFO MemoryStore: Block broadcast_5 of size 21304 dropped from memory (free 256126683)
+14:03:28.403 Spark Context Cleaner INFO ContextCleaner: Cleaned broadcast 5
+14:03:29.775 Executor task launch worker-0 INFO Executor: Finished task 0.0 in stage 4.0 (TID 8). 1897 bytes result sent to driver
+14:03:29.776 sparkDriver-akka.actor.default-dispatcher-14 INFO TaskSetManager: Starting task 1.0 in stage 4.0 (TID 9, localhost, ANY, 1314 bytes)
+14:03:29.777 Executor task launch worker-0 INFO Executor: Running task 1.0 in stage 4.0 (TID 9)
+14:03:29.778 task-result-getter-0 INFO TaskSetManager: Finished task 0.0 in stage 4.0 (TID 8) in 1546 ms on localhost (1/2)
+14:03:29.786 Executor task launch worker-0 INFO HadoopRDD: Input split: hdfs://localhost:9000/user/zengdan/tpch/lineitem/lineitem.tbl:37123498+37123498
+14:03:31.400 Executor task launch worker-0 INFO Executor: Finished task 1.0 in stage 4.0 (TID 9). 2060 bytes result sent to driver
+14:03:31.403 task-result-getter-1 INFO TaskSetManager: Finished task 1.0 in stage 4.0 (TID 9) in 1626 ms on localhost (2/2)
+14:03:31.403 task-result-getter-1 INFO TaskSchedulerImpl: Removed TaskSet 4.0, whose tasks have all completed, from pool 
+14:03:31.403 sparkDriver-akka.actor.default-dispatcher-4 INFO DAGScheduler: Stage 4 (mapPartitions at Exchange.scala:148) finished in 3.173 s
+14:03:31.403 sparkDriver-akka.actor.default-dispatcher-4 INFO DAGScheduler: looking for newly runnable stages
+14:03:31.403 sparkDriver-akka.actor.default-dispatcher-4 INFO DAGScheduler: running: Set()
+14:03:31.403 sparkDriver-akka.actor.default-dispatcher-4 INFO DAGScheduler: waiting: Set(Stage 5)
+14:03:31.403 sparkDriver-akka.actor.default-dispatcher-4 INFO DAGScheduler: failed: Set()
+14:03:31.406 sparkDriver-akka.actor.default-dispatcher-4 INFO DAGScheduler: Missing parents for Stage 5: List()
+14:03:31.406 sparkDriver-akka.actor.default-dispatcher-4 INFO DAGScheduler: Submitting Stage 5 (MappedRDD[35] at map at SparkPlan.scala:96), which is now runnable
+14:03:31.409 sparkDriver-akka.actor.default-dispatcher-4 INFO MemoryStore: ensureFreeSpace(21320) called with curMem=1508440, maxMem=257635123
+14:03:31.409 sparkDriver-akka.actor.default-dispatcher-4 INFO MemoryStore: Block broadcast_8 stored as values in memory (estimated size 20.8 KB, free 244.2 MB)
+14:03:31.411 sparkDriver-akka.actor.default-dispatcher-4 INFO MemoryStore: ensureFreeSpace(13232) called with curMem=1529760, maxMem=257635123
+14:03:31.411 sparkDriver-akka.actor.default-dispatcher-4 INFO MemoryStore: Block broadcast_8_piece0 stored as bytes in memory (estimated size 12.9 KB, free 244.2 MB)
+14:03:31.412 sparkDriver-akka.actor.default-dispatcher-15 INFO BlockManagerInfo: Added broadcast_8_piece0 in memory on localhost:58244 (size: 12.9 KB, free: 245.5 MB)
+14:03:31.412 sparkDriver-akka.actor.default-dispatcher-4 INFO BlockManagerMaster: Updated info of block broadcast_8_piece0
+14:03:31.413 sparkDriver-akka.actor.default-dispatcher-4 INFO SparkContext: Created broadcast 8 from broadcast at DAGScheduler.scala:843
+14:03:31.414 sparkDriver-akka.actor.default-dispatcher-4 INFO DAGScheduler: Submitting 2 missing tasks from Stage 5 (MappedRDD[35] at map at SparkPlan.scala:96)
+14:03:31.414 sparkDriver-akka.actor.default-dispatcher-4 INFO TaskSchedulerImpl: Adding task set 5.0 with 2 tasks
+14:03:31.415 sparkDriver-akka.actor.default-dispatcher-15 INFO TaskSetManager: Starting task 0.0 in stage 5.0 (TID 10, localhost, PROCESS_LOCAL, 1056 bytes)
+14:03:31.415 Executor task launch worker-0 INFO Executor: Running task 0.0 in stage 5.0 (TID 10)
+14:03:31.426 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 2 non-empty blocks out of 2 blocks
+14:03:31.426 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+14:03:31.437 Executor task launch worker-0 INFO Executor: Finished task 0.0 in stage 5.0 (TID 10). 1356 bytes result sent to driver
+14:03:31.438 sparkDriver-akka.actor.default-dispatcher-15 INFO TaskSetManager: Starting task 1.0 in stage 5.0 (TID 11, localhost, PROCESS_LOCAL, 1056 bytes)
+14:03:31.440 task-result-getter-2 INFO TaskSetManager: Finished task 0.0 in stage 5.0 (TID 10) in 25 ms on localhost (1/2)
+14:03:31.441 Executor task launch worker-1 INFO Executor: Running task 1.0 in stage 5.0 (TID 11)
+14:03:31.456 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 2 non-empty blocks out of 2 blocks
+14:03:31.456 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 1 ms
+14:03:31.467 Executor task launch worker-1 INFO Executor: Finished task 1.0 in stage 5.0 (TID 11). 1356 bytes result sent to driver
+14:03:31.470 task-result-getter-3 INFO TaskSetManager: Finished task 1.0 in stage 5.0 (TID 11) in 31 ms on localhost (2/2)
+14:03:31.470 sparkDriver-akka.actor.default-dispatcher-15 INFO DAGScheduler: Stage 5 (collect at SparkPlan.scala:96) finished in 0.055 s
+14:03:31.470 task-result-getter-3 INFO TaskSchedulerImpl: Removed TaskSet 5.0, whose tasks have all completed, from pool 
+14:03:31.471 ScalaTest-run-running-HiveTableCacheSuite INFO DAGScheduler: Job 2 finished: collect at SparkPlan.scala:96, took 3.323405 s
+14:03:31.563 ScalaTest-run-running-HiveTableCacheSuite INFO ParseDriver: Parsing command: select l_returnflag, l_linestatus, sum(l_quantity) as sum_qty, sum(l_extendedprice) as sum_base_price, sum(l_extendedprice * (1 - l_discount)) as sum_disc_price, sum(l_extendedprice * (1 - l_discount) * (1 + l_tax)) as sum_charge, avg(l_quantity) as avg_qty, avg(l_extendedprice) as avg_price, avg(l_discount) as avg_disc, count(*) as count_order
+                                from lineitem
+                                where l_shipdate <= '1998-09-16'
+                                group by l_returnflag, l_linestatus
+14:03:31.573 ScalaTest-run-running-HiveTableCacheSuite INFO ParseDriver: Parse Completed
+14:03:31.580 ScalaTest-run-running-HiveTableCacheSuite INFO HiveMetaStore: 0: get_table : db=default tbl=lineitem
+14:03:31.580 ScalaTest-run-running-HiveTableCacheSuite INFO audit: ugi=zengdan	ip=unknown-ip-addr	cmd=get_table : db=default tbl=lineitem	
+14:03:31.688 ScalaTest-run-running-HiveTableCacheSuite INFO MemoryStore: ensureFreeSpace(408579) called with curMem=1542992, maxMem=257635123
+14:03:31.689 ScalaTest-run-running-HiveTableCacheSuite INFO MemoryStore: Block broadcast_9 stored as values in memory (estimated size 399.0 KB, free 243.8 MB)
+14:03:31.738 ScalaTest-run-running-HiveTableCacheSuite INFO MemoryStore: ensureFreeSpace(60830) called with curMem=1951571, maxMem=257635123
+14:03:31.739 ScalaTest-run-running-HiveTableCacheSuite INFO MemoryStore: Block broadcast_9_piece0 stored as bytes in memory (estimated size 59.4 KB, free 243.8 MB)
+14:03:31.740 sparkDriver-akka.actor.default-dispatcher-15 INFO BlockManagerInfo: Added broadcast_9_piece0 in memory on localhost:58244 (size: 59.4 KB, free: 245.4 MB)
+14:03:31.741 ScalaTest-run-running-HiveTableCacheSuite INFO BlockManagerMaster: Updated info of block broadcast_9_piece0
+14:03:31.743 ScalaTest-run-running-HiveTableCacheSuite INFO SparkContext: Created broadcast 9 from broadcast at TableReader.scala:68
+14:03:31.832 ScalaTest-run-running-HiveTableCacheSuite INFO SparkContext: Starting job: collect at SparkPlan.scala:96
+14:03:31.920 sparkDriver-akka.actor.default-dispatcher-15 INFO FileInputFormat: Total input paths to process : 1
+14:03:31.921 sparkDriver-akka.actor.default-dispatcher-15 INFO DAGScheduler: Registering RDD 43 (mapPartitions at Exchange.scala:148)
+14:03:31.922 sparkDriver-akka.actor.default-dispatcher-15 INFO DAGScheduler: Got job 3 (collect at SparkPlan.scala:96) with 2 output partitions (allowLocal=false)
+14:03:31.922 sparkDriver-akka.actor.default-dispatcher-15 INFO DAGScheduler: Final stage: Stage 7(collect at SparkPlan.scala:96)
+14:03:31.922 sparkDriver-akka.actor.default-dispatcher-15 INFO DAGScheduler: Parents of final stage: List(Stage 6)
+14:03:31.924 sparkDriver-akka.actor.default-dispatcher-15 INFO DAGScheduler: Missing parents: List(Stage 6)
+14:03:31.927 sparkDriver-akka.actor.default-dispatcher-15 INFO DAGScheduler: Submitting Stage 6 (MapPartitionsRDD[43] at mapPartitions at Exchange.scala:148), which has no missing parents
+14:03:31.930 sparkDriver-akka.actor.default-dispatcher-15 INFO MemoryStore: ensureFreeSpace(20240) called with curMem=2012401, maxMem=257635123
+14:03:31.930 sparkDriver-akka.actor.default-dispatcher-15 INFO MemoryStore: Block broadcast_10 stored as values in memory (estimated size 19.8 KB, free 243.8 MB)
+14:03:31.938 sparkDriver-akka.actor.default-dispatcher-15 INFO MemoryStore: ensureFreeSpace(13205) called with curMem=2032641, maxMem=257635123
+14:03:31.938 sparkDriver-akka.actor.default-dispatcher-15 INFO MemoryStore: Block broadcast_10_piece0 stored as bytes in memory (estimated size 12.9 KB, free 243.7 MB)
+14:03:31.938 sparkDriver-akka.actor.default-dispatcher-3 INFO BlockManager: Removing broadcast 8
+14:03:31.939 sparkDriver-akka.actor.default-dispatcher-3 INFO BlockManager: Removing block broadcast_8
+14:03:31.939 sparkDriver-akka.actor.default-dispatcher-3 INFO MemoryStore: Block broadcast_8 of size 21320 dropped from memory (free 255610597)
+14:03:31.939 sparkDriver-akka.actor.default-dispatcher-3 INFO BlockManager: Removing block broadcast_8_piece0
+14:03:31.939 sparkDriver-akka.actor.default-dispatcher-3 INFO MemoryStore: Block broadcast_8_piece0 of size 13232 dropped from memory (free 255623829)
+14:03:31.939 sparkDriver-akka.actor.default-dispatcher-2 INFO BlockManagerInfo: Added broadcast_10_piece0 in memory on localhost:58244 (size: 12.9 KB, free: 245.4 MB)
+14:03:31.939 sparkDriver-akka.actor.default-dispatcher-15 INFO BlockManagerMaster: Updated info of block broadcast_10_piece0
+14:03:31.940 sparkDriver-akka.actor.default-dispatcher-2 INFO BlockManagerInfo: Removed broadcast_8_piece0 on localhost:58244 in memory (size: 12.9 KB, free: 245.4 MB)
+14:03:31.940 sparkDriver-akka.actor.default-dispatcher-3 INFO BlockManagerMaster: Updated info of block broadcast_8_piece0
+14:03:31.940 sparkDriver-akka.actor.default-dispatcher-15 INFO SparkContext: Created broadcast 10 from broadcast at DAGScheduler.scala:843
+14:03:31.941 Spark Context Cleaner INFO ContextCleaner: Cleaned broadcast 8
+14:03:31.941 sparkDriver-akka.actor.default-dispatcher-15 INFO DAGScheduler: Submitting 2 missing tasks from Stage 6 (MapPartitionsRDD[43] at mapPartitions at Exchange.scala:148)
+14:03:31.942 sparkDriver-akka.actor.default-dispatcher-15 INFO TaskSchedulerImpl: Adding task set 6.0 with 2 tasks
+14:03:31.943 sparkDriver-akka.actor.default-dispatcher-3 INFO TaskSetManager: Starting task 0.0 in stage 6.0 (TID 12, localhost, ANY, 1314 bytes)
+14:03:31.944 Executor task launch worker-1 INFO Executor: Running task 0.0 in stage 6.0 (TID 12)
+14:03:31.955 Executor task launch worker-1 INFO HadoopRDD: Input split: hdfs://localhost:9000/user/zengdan/tpch/lineitem/lineitem.tbl:0+37123498
+14:03:33.698 Executor task launch worker-1 INFO Executor: Finished task 0.0 in stage 6.0 (TID 12). 1897 bytes result sent to driver
+14:03:33.700 sparkDriver-akka.actor.default-dispatcher-15 INFO TaskSetManager: Starting task 1.0 in stage 6.0 (TID 13, localhost, ANY, 1314 bytes)
+14:03:33.701 Executor task launch worker-1 INFO Executor: Running task 1.0 in stage 6.0 (TID 13)
+14:03:33.701 task-result-getter-0 INFO TaskSetManager: Finished task 0.0 in stage 6.0 (TID 12) in 1757 ms on localhost (1/2)
+14:03:33.709 Executor task launch worker-1 INFO HadoopRDD: Input split: hdfs://localhost:9000/user/zengdan/tpch/lineitem/lineitem.tbl:37123498+37123498
+14:03:35.358 Executor task launch worker-1 INFO Executor: Finished task 1.0 in stage 6.0 (TID 13). 1897 bytes result sent to driver
+14:03:35.362 task-result-getter-1 INFO TaskSetManager: Finished task 1.0 in stage 6.0 (TID 13) in 1662 ms on localhost (2/2)
+14:03:35.362 sparkDriver-akka.actor.default-dispatcher-3 INFO DAGScheduler: Stage 6 (mapPartitions at Exchange.scala:148) finished in 3.420 s
+14:03:35.362 sparkDriver-akka.actor.default-dispatcher-3 INFO DAGScheduler: looking for newly runnable stages
+14:03:35.362 sparkDriver-akka.actor.default-dispatcher-3 INFO DAGScheduler: running: Set()
+14:03:35.362 sparkDriver-akka.actor.default-dispatcher-3 INFO DAGScheduler: waiting: Set(Stage 7)
+14:03:35.362 sparkDriver-akka.actor.default-dispatcher-3 INFO DAGScheduler: failed: Set()
+14:03:35.362 task-result-getter-1 INFO TaskSchedulerImpl: Removed TaskSet 6.0, whose tasks have all completed, from pool 
+14:03:35.365 sparkDriver-akka.actor.default-dispatcher-3 INFO DAGScheduler: Missing parents for Stage 7: List()
+14:03:35.366 sparkDriver-akka.actor.default-dispatcher-3 INFO DAGScheduler: Submitting Stage 7 (MappedRDD[47] at map at SparkPlan.scala:96), which is now runnable
+14:03:35.368 sparkDriver-akka.actor.default-dispatcher-3 INFO MemoryStore: ensureFreeSpace(21320) called with curMem=2011294, maxMem=257635123
+14:03:35.369 sparkDriver-akka.actor.default-dispatcher-3 INFO MemoryStore: Block broadcast_11 stored as values in memory (estimated size 20.8 KB, free 243.8 MB)
+14:03:35.371 sparkDriver-akka.actor.default-dispatcher-3 INFO MemoryStore: ensureFreeSpace(13234) called with curMem=2032614, maxMem=257635123
+14:03:35.371 sparkDriver-akka.actor.default-dispatcher-3 INFO MemoryStore: Block broadcast_11_piece0 stored as bytes in memory (estimated size 12.9 KB, free 243.7 MB)
+14:03:35.373 sparkDriver-akka.actor.default-dispatcher-15 INFO BlockManagerInfo: Added broadcast_11_piece0 in memory on localhost:58244 (size: 12.9 KB, free: 245.4 MB)
+14:03:35.373 sparkDriver-akka.actor.default-dispatcher-3 INFO BlockManagerMaster: Updated info of block broadcast_11_piece0
+14:03:35.374 sparkDriver-akka.actor.default-dispatcher-3 INFO SparkContext: Created broadcast 11 from broadcast at DAGScheduler.scala:843
+14:03:35.375 sparkDriver-akka.actor.default-dispatcher-3 INFO DAGScheduler: Submitting 2 missing tasks from Stage 7 (MappedRDD[47] at map at SparkPlan.scala:96)
+14:03:35.375 sparkDriver-akka.actor.default-dispatcher-3 INFO TaskSchedulerImpl: Adding task set 7.0 with 2 tasks
+14:03:35.377 sparkDriver-akka.actor.default-dispatcher-15 INFO TaskSetManager: Starting task 0.0 in stage 7.0 (TID 14, localhost, PROCESS_LOCAL, 1056 bytes)
+14:03:35.377 Executor task launch worker-1 INFO Executor: Running task 0.0 in stage 7.0 (TID 14)
+14:03:35.386 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 2 non-empty blocks out of 2 blocks
+14:03:35.386 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+14:03:35.396 Executor task launch worker-1 INFO Executor: Finished task 0.0 in stage 7.0 (TID 14). 1356 bytes result sent to driver
+14:03:35.397 sparkDriver-akka.actor.default-dispatcher-15 INFO TaskSetManager: Starting task 1.0 in stage 7.0 (TID 15, localhost, PROCESS_LOCAL, 1056 bytes)
+14:03:35.398 Executor task launch worker-1 INFO Executor: Running task 1.0 in stage 7.0 (TID 15)
+14:03:35.398 task-result-getter-2 INFO TaskSetManager: Finished task 0.0 in stage 7.0 (TID 14) in 22 ms on localhost (1/2)
+14:03:35.412 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 2 non-empty blocks out of 2 blocks
+14:03:35.412 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+14:03:35.422 Executor task launch worker-1 INFO Executor: Finished task 1.0 in stage 7.0 (TID 15). 1356 bytes result sent to driver
+14:03:35.425 task-result-getter-3 INFO TaskSetManager: Finished task 1.0 in stage 7.0 (TID 15) in 27 ms on localhost (2/2)
+14:03:35.425 sparkDriver-akka.actor.default-dispatcher-15 INFO DAGScheduler: Stage 7 (collect at SparkPlan.scala:96) finished in 0.048 s
+14:03:35.425 task-result-getter-3 INFO TaskSchedulerImpl: Removed TaskSet 7.0, whose tasks have all completed, from pool 
+14:03:35.426 ScalaTest-run-running-HiveTableCacheSuite INFO DAGScheduler: Job 3 finished: collect at SparkPlan.scala:96, took 3.593571 s

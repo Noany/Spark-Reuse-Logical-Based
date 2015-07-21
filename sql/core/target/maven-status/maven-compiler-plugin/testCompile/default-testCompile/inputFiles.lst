@@ -1,0 +1,5 @@
+/Users/zengdan/spark-1.2.0/sql/core/src/test/java/org/apache/spark/sql/api/java/JavaAPISuite.java
+/Users/zengdan/spark-1.2.0/sql/core/src/test/java/org/apache/spark/sql/api/java/JavaUserDefinedTypeSuite.java
+/Users/zengdan/spark-1.2.0/sql/core/src/test/java/org/apache/spark/sql/api/java/JavaApplySchemaSuite.java
+/Users/zengdan/spark-1.2.0/sql/core/src/test/java/org/apache/spark/sql/api/java/JavaSideDataTypeConversionSuite.java
+/Users/zengdan/spark-1.2.0/sql/core/src/test/java/org/apache/spark/sql/api/java/JavaRowSuite.java

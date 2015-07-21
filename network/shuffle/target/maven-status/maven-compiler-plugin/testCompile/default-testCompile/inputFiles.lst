@@ -1,0 +1,11 @@
+/Users/zengdan/spark-1.2.0/network/shuffle/src/test/java/org/apache/spark/network/shuffle/BlockTransferMessagesSuite.java
+/Users/zengdan/spark-1.2.0/network/shuffle/src/test/java/org/apache/spark/network/sasl/SaslIntegrationSuite.java
+/Users/zengdan/spark-1.2.0/network/shuffle/src/test/java/org/apache/spark/network/shuffle/ExternalShuffleCleanupSuite.java
+/Users/zengdan/spark-1.2.0/network/shuffle/src/test/java/org/apache/spark/network/shuffle/ExternalShuffleBlockManagerSuite.java
+/Users/zengdan/spark-1.2.0/network/shuffle/src/test/java/org/apache/spark/network/shuffle/TestShuffleDataContext.java
+/Users/zengdan/spark-1.2.0/network/shuffle/src/test/java/org/apache/spark/network/shuffle/ExternalShuffleIntegrationSuite.java
+/Users/zengdan/spark-1.2.0/network/shuffle/src/test/java/org/apache/spark/network/shuffle/RetryingBlockFetcherSuite.java
+/Users/zengdan/spark-1.2.0/network/shuffle/src/test/java/org/apache/spark/network/sasl/SparkSaslSuite.java
+/Users/zengdan/spark-1.2.0/network/shuffle/src/test/java/org/apache/spark/network/shuffle/OneForOneBlockFetcherSuite.java
+/Users/zengdan/spark-1.2.0/network/shuffle/src/test/java/org/apache/spark/network/shuffle/ExternalShuffleBlockHandlerSuite.java
+/Users/zengdan/spark-1.2.0/network/shuffle/src/test/java/org/apache/spark/network/shuffle/ExternalShuffleSecuritySuite.java

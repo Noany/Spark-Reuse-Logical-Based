@@ -1,0 +1,36 @@
+[debug] Invalidating /Library/Java/JavaVirtualMachines/jdk1.7.0_65.jdk/Contents/Home/jre/lib/rt.jar: class java.lang.Object now provided by /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar
+[debug] Invalidating /Users/zengdan/.sbt/boot/scala-2.10.4/lib/scala-library.jar: class scala.collection.TraversableLike now provided by /Users/zengdan/Library/Caches/IntelliJIdea13/SBT/boot/scala-2.10.4/lib/scala-library.jar
+[debug] 
+[debug] Initial source changes: 
+[debug] 	removed:Set()
+[debug] 	added: Set()
+[debug] 	modified: Set()
+[debug] Removed products: Set()
+[debug] External API changes: API Changes: Set()
+[debug] Modified binary dependencies: Set(/Library/Java/JavaVirtualMachines/jdk1.7.0_65.jdk/Contents/Home/jre/lib/rt.jar, /Users/zengdan/.sbt/boot/scala-2.10.4/lib/scala-library.jar)
+[debug] Initial directly invalidated sources: Set()
+[debug] 
+[debug] Sources indirectly invalidated by:
+[debug] 	product: Set()
+[debug] 	binary dep: Set(/Users/zengdan/spark-1.2.0/project/spark-style/src/main/scala/org/apache/spark/scalastyle/NonASCIICharacterChecker.scala)
+[debug] 	external source: Set()
+[debug] All initially invalidated sources: Set(/Users/zengdan/spark-1.2.0/project/spark-style/src/main/scala/org/apache/spark/scalastyle/NonASCIICharacterChecker.scala)
+[debug] Recompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources
+[info] Compiling 1 Scala source to /Users/zengdan/spark-1.2.0/project/spark-style/target/scala-2.10/classes...
+[debug] Getting compiler-interface from component compiler for Scala 2.10.4
+[debug] Getting compiler-interface from component compiler for Scala 2.10.4
+[debug] Running cached compiler 1feb89f9, interfacing (CompilerInterface) with Scala compiler version 2.10.4
+[debug] Calling Scala compiler with arguments  (CompilerInterface):
+[debug] 	-unchecked
+[debug] 	-deprecation
+[debug] 	-bootclasspath
+[debug] 	/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar:/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Resources/Java/JavaRuntimeSupport.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar:/Users/zengdan/Library/Caches/IntelliJIdea13/SBT/boot/scala-2.10.4/lib/scala-library.jar
+[debug] 	-classpath
+[debug] 	/Users/zengdan/spark-1.2.0/project/spark-style/target/scala-2.10/classes:/Users/zengdan/Library/Caches/IntelliJIdea13/SBT/plugins/target/scala-2.10/sbt-0.13/classes:/Users/zengdan/.ivy2/cache/scala_2.10/sbt_0.13/org.jetbrains/sbt-structure/jars/sbt-structure-2.4.0.jar:/Users/zengdan/.ivy2/cache/org.scalastyle/scalastyle_2.10/jars/scalastyle_2.10-0.4.0.jar:/Users/zengdan/.ivy2/cache/org.scalariform/scalariform_2.10/jars/scalariform_2.10-0.1.4.jar:/Users/zengdan/.ivy2/cache/com.github.scopt/scopt_2.10/jars/scopt_2.10-3.2.0.jar
+[debug] Scala compilation took 1.880895 s
+[debug] New invalidations:
+[debug] 	Set()
+[debug] Initial set of included nodes: Set()
+[debug] Previously invalidated, but (transitively) depend on new invalidations:
+[debug] 	Set()
+[debug] All newly invalidated sources after taking into account (previously) recompiled sources:Set()

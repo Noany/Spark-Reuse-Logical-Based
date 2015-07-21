@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="old-deps"
+		module="old-deps$sources_javadoc_2.10"
+		revision="0.1-SNAPSHOT"
+		conf="compile-internal"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20150422130530"/>
+	<dependencies>
+		<module organisation="org.apache.spark" name="spark-graphx_2.10">
+			<revision name="1.1.0" status="release" pubdate="20140903133512" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spark.apache.org/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="8">
+				<metadata-artifact status="no" details="" size="28788" time="0" location="/Users/zengdan/.ivy2/cache/org.apache.spark/spark-graphx_2.10/ivy-1.1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-graphx_2.10/1.1.0/spark-graphx_2.10-1.1.0.pom"/>
+				<caller organisation="old-deps" name="old-deps$sources_javadoc_2.10" conf="optional, compile, provided, compile-internal" rev="1.1.0" rev-constraint-default="1.1.0" rev-constraint-dynamic="1.1.0" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="spark-graphx_2.10" type="jar" ext="jar" status="no" details="" size="834686" time="0" location="/Users/zengdan/.ivy2/cache/org.apache.spark/spark-graphx_2.10/jars/spark-graphx_2.10-1.1.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/spark/spark-graphx_2.10/1.1.0/spark-graphx_2.10-1.1.0.jar"/>
+					</artifact>
+					<artifact name="spark-graphx_2.10" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="90602" time="0" location="/Users/zengdan/.ivy2/cache/org.apache.spark/spark-graphx_2.10/srcs/spark-graphx_2.10-1.1.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/spark/spark-graphx_2.10/1.1.0/spark-graphx_2.10-1.1.0-sources.jar"/>
+					</artifact>
+					<artifact name="spark-graphx_2.10" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="528291" time="0" location="/Users/zengdan/.ivy2/cache/org.apache.spark/spark-graphx_2.10/docs/spark-graphx_2.10-1.1.0-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/spark/spark-graphx_2.10/1.1.0/spark-graphx_2.10-1.1.0-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.spark" name="spark-bagel_2.10">
+			<revision name="1.1.0" status="release" pubdate="20140903133336" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spark.apache.org/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="7">
+				<metadata-artifact status="no" details="" size="28658" time="0" location="/Users/zengdan/.ivy2/cache/org.apache.spark/spark-bagel_2.10/ivy-1.1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-bagel_2.10/1.1.0/spark-bagel_2.10-1.1.0.pom"/>
+				<caller organisation="old-deps" name="old-deps$sources_javadoc_2.10" conf="optional, compile, provided, compile-internal" rev="1.1.0" rev-constraint-default="1.1.0" rev-constraint-dynamic="1.1.0" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="spark-bagel_2.10" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="380213" time="0" location="/Users/zengdan/.ivy2/cache/org.apache.spark/spark-bagel_2.10/docs/spark-bagel_2.10-1.1.0-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/spark/spark-bagel_2.10/1.1.0/spark-bagel_2.10-1.1.0-javadoc.jar"/>
+					</artifact>
+					<artifact name="spark-bagel_2.10" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="13221" time="0" location="/Users/zengdan/.ivy2/cache/org.apache.spark/spark-bagel_2.10/srcs/spark-bagel_2.10-1.1.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/spark/spark-bagel_2.10/1.1.0/spark-bagel_2.10-1.1.0-sources.jar"/>
+					</artifact>
+					<artifact name="spark-bagel_2.10" type="jar" ext="jar" status="no" details="" size="41533" time="0" location="/Users/zengdan/.ivy2/cache/org.apache.spark/spark-bagel_2.10/jars/spark-bagel_2.10-1.1.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/spark/spark-bagel_2.10/1.1.0/spark-bagel_2.10-1.1.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.spark" name="spark-mllib_2.10">
+			<revision name="1.1.0" status="release" pubdate="20140903133927" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spark.apache.org/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="6">
+				<metadata-artifact status="no" details="" size="24690" time="0" location="/Users/zengdan/.ivy2/cache/org.apache.spark/spark-mllib_2.10/ivy-1.1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-mllib_2.10/1.1.0/spark-mllib_2.10-1.1.0.pom"/>
+				<caller organisation="old-deps" name="old-deps$sources_javadoc_2.10" conf="optional, compile, provided, compile-internal" rev="1.1.0" rev-constraint-default="1.1.0" rev-constraint-dynamic="1.1.0" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="spark-mllib_2.10" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="834957" time="0" location="/Users/zengdan/.ivy2/cache/org.apache.spark/spark-mllib_2.10/docs/spark-mllib_2.10-1.1.0-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/spark/spark-mllib_2.10/1.1.0/spark-mllib_2.10-1.1.0-javadoc.jar"/>
+					</artifact>
+					<artifact name="spark-mllib_2.10" type="jar" ext="jar" status="no" details="" size="1100246" time="0" location="/Users/zengdan/.ivy2/cache/org.apache.spark/spark-mllib_2.10/jars/spark-mllib_2.10-1.1.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/spark/spark-mllib_2.10/1.1.0/spark-mllib_2.10-1.1.0.jar"/>
+					</artifact>
+					<artifact name="spark-mllib_2.10" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="219729" time="0" location="/Users/zengdan/.ivy2/cache/org.apache.spark/spark-mllib_2.10/srcs/spark-mllib_2.10-1.1.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/spark/spark-mllib_2.10/1.1.0/spark-mllib_2.10-1.1.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.spark" name="spark-streaming-twitter_2.10">
+			<revision name="1.1.0" status="release" pubdate="20140903135123" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spark.apache.org/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="4">
+				<metadata-artifact status="no" details="" size="24092" time="0" location="/Users/zengdan/.ivy2/cache/org.apache.spark/spark-streaming-twitter_2.10/ivy-1.1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-streaming-twitter_2.10/1.1.0/spark-streaming-twitter_2.10-1.1.0.pom"/>
+				<caller organisation="old-deps" name="old-deps$sources_javadoc_2.10" conf="optional, compile, provided, compile-internal" rev="1.1.0" rev-constraint-default="1.1.0" rev-constraint-dynamic="1.1.0" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="spark-streaming-twitter_2.10" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="362142" time="0" location="/Users/zengdan/.ivy2/cache/org.apache.spark/spark-streaming-twitter_2.10/docs/spark-streaming-twitter_2.10-1.1.0-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/spark/spark-streaming-twitter_2.10/1.1.0/spark-streaming-twitter_2.10-1.1.0-javadoc.jar"/>
+					</artifact>
+					<artifact name="spark-streaming-twitter_2.10" type="jar" ext="jar" status="no" details="" size="23905" time="0" location="/Users/zengdan/.ivy2/cache/org.apache.spark/spark-streaming-twitter_2.10/jars/spark-streaming-twitter_2.10-1.1.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/spark/spark-streaming-twitter_2.10/1.1.0/spark-streaming-twitter_2.10-1.1.0.jar"/>
+					</artifact>
+					<artifact name="spark-streaming-twitter_2.10" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="13315" time="0" location="/Users/zengdan/.ivy2/cache/org.apache.spark/spark-streaming-twitter_2.10/srcs/spark-streaming-twitter_2.10-1.1.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/spark/spark-streaming-twitter_2.10/1.1.0/spark-streaming-twitter_2.10-1.1.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.spark" name="spark-streaming-kafka_2.10">
+			<revision name="1.1.0" status="release" pubdate="20140903135227" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spark.apache.org/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="3">
+				<metadata-artifact status="no" details="" size="24735" time="0" location="/Users/zengdan/.ivy2/cache/org.apache.spark/spark-streaming-kafka_2.10/ivy-1.1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-streaming-kafka_2.10/1.1.0/spark-streaming-kafka_2.10-1.1.0.pom"/>
+				<caller organisation="old-deps" name="old-deps$sources_javadoc_2.10" conf="optional, compile, provided, compile-internal" rev="1.1.0" rev-constraint-default="1.1.0" rev-constraint-dynamic="1.1.0" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="spark-streaming-kafka_2.10" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="14409" time="0" location="/Users/zengdan/.ivy2/cache/org.apache.spark/spark-streaming-kafka_2.10/srcs/spark-streaming-kafka_2.10-1.1.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/spark/spark-streaming-kafka_2.10/1.1.0/spark-streaming-kafka_2.10-1.1.0-sources.jar"/>
+					</artifact>
+					<artifact name="spark-streaming-kafka_2.10" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="362638" time="0" location="/Users/zengdan/.ivy2/cache/org.apache.spark/spark-streaming-kafka_2.10/docs/spark-streaming-kafka_2.10-1.1.0-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/spark/spark-streaming-kafka_2.10/1.1.0/spark-streaming-kafka_2.10-1.1.0-javadoc.jar"/>
+					</artifact>
+					<artifact name="spark-streaming-kafka_2.10" type="jar" ext="jar" status="no" details="" size="38744" time="0" location="/Users/zengdan/.ivy2/cache/org.apache.spark/spark-streaming-kafka_2.10/jars/spark-streaming-kafka_2.10-1.1.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/spark/spark-streaming-kafka_2.10/1.1.0/spark-streaming-kafka_2.10-1.1.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.spark" name="spark-streaming-flume_2.10">
+			<revision name="1.1.0" status="release" pubdate="20140903135446" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spark.apache.org/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="2">
+				<metadata-artifact status="no" details="" size="24461" time="0" location="/Users/zengdan/.ivy2/cache/org.apache.spark/spark-streaming-flume_2.10/ivy-1.1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-streaming-flume_2.10/1.1.0/spark-streaming-flume_2.10-1.1.0.pom"/>
+				<caller organisation="old-deps" name="old-deps$sources_javadoc_2.10" conf="optional, compile, provided, compile-internal" rev="1.1.0" rev-constraint-default="1.1.0" rev-constraint-dynamic="1.1.0" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="spark-streaming-flume_2.10" type="jar" ext="jar" status="no" details="" size="66645" time="0" location="/Users/zengdan/.ivy2/cache/org.apache.spark/spark-streaming-flume_2.10/jars/spark-streaming-flume_2.10-1.1.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/spark/spark-streaming-flume_2.10/1.1.0/spark-streaming-flume_2.10-1.1.0.jar"/>
+					</artifact>
+					<artifact name="spark-streaming-flume_2.10" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="368141" time="0" location="/Users/zengdan/.ivy2/cache/org.apache.spark/spark-streaming-flume_2.10/docs/spark-streaming-flume_2.10-1.1.0-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/spark/spark-streaming-flume_2.10/1.1.0/spark-streaming-flume_2.10-1.1.0-javadoc.jar"/>
+					</artifact>
+					<artifact name="spark-streaming-flume_2.10" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="20353" time="0" location="/Users/zengdan/.ivy2/cache/org.apache.spark/spark-streaming-flume_2.10/srcs/spark-streaming-flume_2.10-1.1.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/spark/spark-streaming-flume_2.10/1.1.0/spark-streaming-flume_2.10-1.1.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.spark" name="spark-streaming-zeromq_2.10">
+			<revision name="1.1.0" status="release" pubdate="20140903135551" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spark.apache.org/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="1">
+				<metadata-artifact status="no" details="" size="24114" time="0" location="/Users/zengdan/.ivy2/cache/org.apache.spark/spark-streaming-zeromq_2.10/ivy-1.1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-streaming-zeromq_2.10/1.1.0/spark-streaming-zeromq_2.10-1.1.0.pom"/>
+				<caller organisation="old-deps" name="old-deps$sources_javadoc_2.10" conf="optional, compile, provided, compile-internal" rev="1.1.0" rev-constraint-default="1.1.0" rev-constraint-dynamic="1.1.0" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="spark-streaming-zeromq_2.10" type="jar" ext="jar" status="no" details="" size="31934" time="0" location="/Users/zengdan/.ivy2/cache/org.apache.spark/spark-streaming-zeromq_2.10/jars/spark-streaming-zeromq_2.10-1.1.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/spark/spark-streaming-zeromq_2.10/1.1.0/spark-streaming-zeromq_2.10-1.1.0.jar"/>
+					</artifact>
+					<artifact name="spark-streaming-zeromq_2.10" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="12961" time="0" location="/Users/zengdan/.ivy2/cache/org.apache.spark/spark-streaming-zeromq_2.10/srcs/spark-streaming-zeromq_2.10-1.1.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/spark/spark-streaming-zeromq_2.10/1.1.0/spark-streaming-zeromq_2.10-1.1.0-sources.jar"/>
+					</artifact>
+					<artifact name="spark-streaming-zeromq_2.10" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="362435" time="0" location="/Users/zengdan/.ivy2/cache/org.apache.spark/spark-streaming-zeromq_2.10/docs/spark-streaming-zeromq_2.10-1.1.0-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/spark/spark-streaming-zeromq_2.10/1.1.0/spark-streaming-zeromq_2.10-1.1.0-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.spark" name="spark-streaming-mqtt_2.10">
+			<revision name="1.1.0" status="release" pubdate="20140903135656" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spark.apache.org/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="0">
+				<metadata-artifact status="no" details="" size="24248" time="0" location="/Users/zengdan/.ivy2/cache/org.apache.spark/spark-streaming-mqtt_2.10/ivy-1.1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-streaming-mqtt_2.10/1.1.0/spark-streaming-mqtt_2.10-1.1.0.pom"/>
+				<caller organisation="old-deps" name="old-deps$sources_javadoc_2.10" conf="optional, compile, provided, compile-internal" rev="1.1.0" rev-constraint-default="1.1.0" rev-constraint-dynamic="1.1.0" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="spark-streaming-mqtt_2.10" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="12921" time="0" location="/Users/zengdan/.ivy2/cache/org.apache.spark/spark-streaming-mqtt_2.10/srcs/spark-streaming-mqtt_2.10-1.1.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/spark/spark-streaming-mqtt_2.10/1.1.0/spark-streaming-mqtt_2.10-1.1.0-sources.jar"/>
+					</artifact>
+					<artifact name="spark-streaming-mqtt_2.10" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="361780" time="0" location="/Users/zengdan/.ivy2/cache/org.apache.spark/spark-streaming-mqtt_2.10/docs/spark-streaming-mqtt_2.10-1.1.0-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/spark/spark-streaming-mqtt_2.10/1.1.0/spark-streaming-mqtt_2.10-1.1.0-javadoc.jar"/>
+					</artifact>
+					<artifact name="spark-streaming-mqtt_2.10" type="jar" ext="jar" status="no" details="" size="18310" time="0" location="/Users/zengdan/.ivy2/cache/org.apache.spark/spark-streaming-mqtt_2.10/jars/spark-streaming-mqtt_2.10-1.1.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/spark/spark-streaming-mqtt_2.10/1.1.0/spark-streaming-mqtt_2.10-1.1.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.spark" name="spark-streaming_2.10">
+			<revision name="1.1.0" status="release" pubdate="20140903133720" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spark.apache.org/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="5">
+				<metadata-artifact status="no" details="" size="29075" time="0" location="/Users/zengdan/.ivy2/cache/org.apache.spark/spark-streaming_2.10/ivy-1.1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-streaming_2.10/1.1.0/spark-streaming_2.10-1.1.0.pom"/>
+				<caller organisation="old-deps" name="old-deps$sources_javadoc_2.10" conf="optional, compile, provided, compile-internal" rev="1.1.0" rev-constraint-default="1.1.0" rev-constraint-dynamic="1.1.0" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="spark-streaming_2.10" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="141093" time="0" location="/Users/zengdan/.ivy2/cache/org.apache.spark/spark-streaming_2.10/srcs/spark-streaming_2.10-1.1.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/spark/spark-streaming_2.10/1.1.0/spark-streaming_2.10-1.1.0-sources.jar"/>
+					</artifact>
+					<artifact name="spark-streaming_2.10" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="622625" time="0" location="/Users/zengdan/.ivy2/cache/org.apache.spark/spark-streaming_2.10/docs/spark-streaming_2.10-1.1.0-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/spark/spark-streaming_2.10/1.1.0/spark-streaming_2.10-1.1.0-javadoc.jar"/>
+					</artifact>
+					<artifact name="spark-streaming_2.10" type="jar" ext="jar" status="no" details="" size="1087871" time="0" location="/Users/zengdan/.ivy2/cache/org.apache.spark/spark-streaming_2.10/jars/spark-streaming_2.10-1.1.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/spark/spark-streaming_2.10/1.1.0/spark-streaming_2.10-1.1.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.spark" name="spark-core_2.10">
+			<revision name="1.1.0" status="release" pubdate="20140903133242" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spark.apache.org/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="9">
+				<metadata-artifact status="no" details="" size="36634" time="0" location="/Users/zengdan/.ivy2/cache/org.apache.spark/spark-core_2.10/ivy-1.1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.10/1.1.0/spark-core_2.10-1.1.0.pom"/>
+				<caller organisation="old-deps" name="old-deps$sources_javadoc_2.10" conf="optional, compile, provided, compile-internal" rev="1.1.0" rev-constraint-default="1.1.0" rev-constraint-dynamic="1.1.0" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="spark-core_2.10" type="jar" ext="jar" status="no" details="" size="6446192" time="0" location="/Users/zengdan/.ivy2/cache/org.apache.spark/spark-core_2.10/jars/spark-core_2.10-1.1.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.10/1.1.0/spark-core_2.10-1.1.0.jar"/>
+					</artifact>
+					<artifact name="spark-core_2.10" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="1372490" time="0" location="/Users/zengdan/.ivy2/cache/org.apache.spark/spark-core_2.10/docs/spark-core_2.10-1.1.0-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.10/1.1.0/spark-core_2.10-1.1.0-javadoc.jar"/>
+					</artifact>
+					<artifact name="spark-core_2.10" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1054403" time="0" location="/Users/zengdan/.ivy2/cache/org.apache.spark/spark-core_2.10/srcs/spark-core_2.10-1.1.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.10/1.1.0/spark-core_2.10-1.1.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

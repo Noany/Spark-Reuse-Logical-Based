@@ -1,0 +1,16 @@
+/Users/zengdan/spark-1.2.0/mllib/src/test/java/org/apache/spark/mllib/regression/JavaLinearRegressionSuite.java
+/Users/zengdan/spark-1.2.0/mllib/src/test/java/org/apache/spark/ml/JavaPipelineSuite.java
+/Users/zengdan/spark-1.2.0/mllib/src/test/java/org/apache/spark/mllib/classification/JavaLogisticRegressionSuite.java
+/Users/zengdan/spark-1.2.0/mllib/src/test/java/org/apache/spark/mllib/classification/JavaSVMSuite.java
+/Users/zengdan/spark-1.2.0/mllib/src/test/java/org/apache/spark/mllib/clustering/JavaKMeansSuite.java
+/Users/zengdan/spark-1.2.0/mllib/src/test/java/org/apache/spark/mllib/linalg/JavaVectorsSuite.java
+/Users/zengdan/spark-1.2.0/mllib/src/test/java/org/apache/spark/ml/tuning/JavaCrossValidatorSuite.java
+/Users/zengdan/spark-1.2.0/mllib/src/test/java/org/apache/spark/mllib/feature/JavaTfIdfSuite.java
+/Users/zengdan/spark-1.2.0/mllib/src/test/java/org/apache/spark/mllib/regression/JavaRidgeRegressionSuite.java
+/Users/zengdan/spark-1.2.0/mllib/src/test/java/org/apache/spark/ml/classification/JavaLogisticRegressionSuite.java
+/Users/zengdan/spark-1.2.0/mllib/src/test/java/org/apache/spark/mllib/classification/JavaNaiveBayesSuite.java
+/Users/zengdan/spark-1.2.0/mllib/src/test/java/org/apache/spark/mllib/random/JavaRandomRDDsSuite.java
+/Users/zengdan/spark-1.2.0/mllib/src/test/java/org/apache/spark/mllib/feature/JavaWord2VecSuite.java
+/Users/zengdan/spark-1.2.0/mllib/src/test/java/org/apache/spark/mllib/tree/JavaDecisionTreeSuite.java
+/Users/zengdan/spark-1.2.0/mllib/src/test/java/org/apache/spark/mllib/regression/JavaLassoSuite.java
+/Users/zengdan/spark-1.2.0/mllib/src/test/java/org/apache/spark/mllib/recommendation/JavaALSSuite.java

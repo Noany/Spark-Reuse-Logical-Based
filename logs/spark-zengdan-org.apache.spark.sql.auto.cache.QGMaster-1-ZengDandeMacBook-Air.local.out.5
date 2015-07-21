@@ -1,0 +1,95 @@
+Spark assembly has been built with Hive, including Datanucleus jars on classpath
+Spark Command: /Library/Java/JavaVirtualMachines/jdk1.7.0_65.jdk/Contents/Home/bin/java -cp ::/Users/zengdan/spark-1.2.0/sbin/../conf:/Users/zengdan/spark-1.2.0/assembly/target/scala-2.10/spark-assembly-1.2.0-hadoop2.2.0.jar:/Users/zengdan/spark-1.2.0/lib_managed/jars/datanucleus-api-jdo-3.2.6.jar:/Users/zengdan/spark-1.2.0/lib_managed/jars/datanucleus-core-3.2.10.jar:/Users/zengdan/spark-1.2.0/lib_managed/jars/datanucleus-rdbms-3.2.9.jar -XX:MaxPermSize=128m -Xms512m -Xmx512m org.apache.spark.sql.auto.cache.QGMaster --ip localhost --port 7070 --webui-port 8088
+========================================
+
+=====Parents=====
+id: 0 statistics: 1 0 0 MetastoreRelation
+=====Nodes=====
+0 id: 0 statistics: 1 0 0 MetastoreRelation 
+1 id: 1 statistics: 1 0 0 Filter 
+2 id: 2 statistics: 1 2828 20206642 Project 
+3 id: 3 statistics: 1 4896 264 Aggregate 
+===============
+=====Parents=====
+id: 0 statistics: 2 0 0 MetastoreRelation
+=====Nodes=====
+0 id: 0 statistics: 2 0 0 MetastoreRelation 
+1 id: 1 statistics: 2 0 0 Filter 
+2 id: 2 statistics: 2 2828 20206642 Project 
+3 id: 3 statistics: 2 4896 264 Aggregate 
+===============
+=====Parents=====
+id: 0 statistics: 3 0 0 MetastoreRelation
+id: 4 statistics: 1 0 0 MetastoreRelation
+id: 6 statistics: 1 0 0 MetastoreRelation
+id: 11 statistics: 1 9 135499 MetastoreRelation
+id: 14 statistics: 1 0 0 MetastoreRelation
+id: 18 statistics: 1 0 0 MetastoreRelation
+=====Nodes=====
+0 id: 0 statistics: 3 0 0 MetastoreRelation 
+1 id: 1 statistics: 3 0 0 Filter 
+2 id: 2 statistics: 3 2828 20206642 Project 
+3 id: 3 statistics: 3 4896 264 Aggregate 
+4 id: 4 statistics: 1 0 0 MetastoreRelation 
+5 id: 5 statistics: 1 2 372 Project 
+6 id: 6 statistics: 1 0 0 MetastoreRelation 
+7 id: 7 statistics: 1 0 0 Filter 
+8 id: 8 statistics: 1 0 4 Project 
+9 id: 9 statistics: 1 78 100 Join 
+10 id: 10 statistics: 1 0 60 Project 
+11 id: 11 statistics: 1 9 135499 MetastoreRelation 
+12 id: 12 statistics: 1 133 29906 Join 
+13 id: 13 statistics: 1 3 28274 Project 
+14 id: 14 statistics: 1 0 0 MetastoreRelation 
+15 id: 15 statistics: 1 215 1280000 Project 
+17 id: 17 statistics: 1 20 2399360 Project 
+16 id: 16 statistics: 1 909 2529920 Join 
+19 id: 19 statistics: 1 0 0 Filter 
+18 id: 18 statistics: 1 0 0 MetastoreRelation 
+21 id: 21 statistics: 1 1267 1794 Join 
+20 id: 20 statistics: 1 533 1314 Project 
+23 id: 23 statistics: 1 2 10041 Filter 
+22 id: 22 statistics: 3 1 1542 Project 
+25 id: 25 statistics: 1 42 528 Aggregate 
+24 id: 24 statistics: 1 0 0 Project 
+27 id: 27 statistics: 1 0 6568 Project 
+26 id: 26 statistics: 1 220 7448 Join 
+===============
+=====Parents=====
+id: 0 statistics: 3 0 0 MetastoreRelation
+id: 4 statistics: 1 0 0 MetastoreRelation
+id: 6 statistics: 1 0 0 MetastoreRelation
+id: 11 statistics: 1 9 135499 MetastoreRelation
+id: 14 statistics: 1 0 0 MetastoreRelation
+id: 18 statistics: 1 0 0 MetastoreRelation
+=====Nodes=====
+0 id: 0 statistics: 3 0 0 MetastoreRelation 
+1 id: 1 statistics: 3 0 0 Filter 
+2 id: 2 statistics: 3 2828 20206642 Project 
+3 id: 3 statistics: 3 4896 264 Aggregate 
+4 id: 4 statistics: 1 0 0 MetastoreRelation 
+5 id: 5 statistics: 1 2 372 Project 
+6 id: 6 statistics: 1 0 0 MetastoreRelation 
+7 id: 7 statistics: 1 0 0 Filter 
+8 id: 8 statistics: 1 0 4 Project 
+9 id: 9 statistics: 1 78 100 Join 
+10 id: 10 statistics: 1 0 60 Project 
+11 id: 11 statistics: 1 9 135499 MetastoreRelation 
+12 id: 12 statistics: 1 133 29906 Join 
+13 id: 13 statistics: 1 3 28274 Project 
+14 id: 14 statistics: 1 0 0 MetastoreRelation 
+15 id: 15 statistics: 1 215 1280000 Project 
+17 id: 17 statistics: 1 20 2399360 Project 
+16 id: 16 statistics: 1 909 2529920 Join 
+19 id: 19 statistics: 1 0 0 Filter 
+18 id: 18 statistics: 1 0 0 MetastoreRelation 
+21 id: 21 statistics: 1 1267 1794 Join 
+20 id: 20 statistics: 1 533 1314 Project 
+23 id: 23 statistics: 2 2 10041 Filter 
+22 id: 22 statistics: 5 1 1542 Project 
+25 id: 25 statistics: 2 42 528 Aggregate 
+24 id: 24 statistics: 2 0 0 Project 
+27 id: 27 statistics: 2 0 6568 Project 
+26 id: 26 statistics: 2 220 7448 Join 
+===============
+15/05/14 21:20:23 ERROR QGMaster: RECEIVED SIGNAL 15: SIGTERM

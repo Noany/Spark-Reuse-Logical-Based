@@ -1,0 +1,4 @@
+/Users/zengdan/spark-1.2.0/core/src/test/java/org/apache/spark/JavaJdbcRDDSuite.java
+/Users/zengdan/spark-1.2.0/core/src/test/java/org/apache/spark/util/JavaTaskCompletionListenerImpl.java
+/Users/zengdan/spark-1.2.0/core/src/test/java/org/apache/spark/JavaAPISuite.java
+/Users/zengdan/spark-1.2.0/core/src/test/java/org/apache/spark/serializer/TestJavaSerializerImpl.java
